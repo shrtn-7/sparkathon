@@ -1,0 +1,1001 @@
+product_id,product_name,category,origin_country,weight_kg,packaging,delivery_method,delivery_distance_km,delivery_speed,carbon_score
+1000,Product 1000,Electronics,India,3.36,Plastic,Road,4305,express,14.46
+1001,Product 1001,Electronics,India,2.4,Paper,Road,4361,standard,10.47
+1002,Product 1002,Personal Care,Germany,4.4,Paper,Sea,5414,standard,14.29
+1003,Product 1003,Personal Care,Germany,2.13,Plastic,Sea,3436,standard,4.39
+1004,Product 1004,Personal Care,China,1.2,Glass,Sea,8894,express,6.4
+1005,Product 1005,Toys,Germany,3.03,BioPlastic,Air,7962,express,60.31
+1006,Product 1006,Stationery,China,4.76,Metal,Road,4043,express,19.24
+1007,Product 1007,Electronics,Bangladesh,3.45,BioPlastic,Air,4545,standard,39.2
+1008,Product 1008,Stationery,Bangladesh,4.97,Carton,Sea,2305,standard,6.87
+1009,Product 1009,Fashion,Vietnam,0.41,Carton,Air,1283,express,1.32
+1010,Product 1010,Fashion,Germany,1.02,BioPlastic,Road,9778,standard,9.97
+1011,Product 1011,Stationery,China,3.07,Paper,Air,2164,express,16.61
+1012,Product 1012,Home Decor,China,3.05,Paper,Sea,1251,standard,2.29
+1013,Product 1013,Personal Care,USA,3.32,Plastic,Air,8991,standard,74.63
+1014,Product 1014,Home Decor,Vietnam,2.15,BioPlastic,Road,7143,express,15.36
+1015,Product 1015,Home Decor,Vietnam,4.65,Glass,Air,7815,standard,90.85
+1016,Product 1016,Toys,Bangladesh,1.34,Metal,Road,105,express,0.14
+1017,Product 1017,Grocery,Germany,2.86,Plastic,Air,4987,express,35.66
+1018,Product 1018,Home Decor,Germany,3.87,Glass,Air,7993,standard,77.33
+1019,Product 1019,Grocery,Germany,4.53,Glass,Road,6911,express,31.31
+1020,Product 1020,Personal Care,Vietnam,0.79,Plastic,Air,8971,standard,17.72
+1021,Product 1021,Toys,Germany,0.31,Glass,Air,6718,express,5.21
+1022,Product 1022,Electronics,Germany,2.23,Paper,Air,9490,express,52.91
+1023,Product 1023,Fashion,Germany,0.95,Carton,Air,2353,express,5.59
+1024,Product 1024,Toys,Italy,4.2,BioPlastic,Road,6485,express,27.24
+1025,Product 1025,Personal Care,Germany,2.51,Plastic,Sea,8675,express,13.06
+1026,Product 1026,Toys,Germany,4.66,Metal,Air,761,express,8.87
+1027,Product 1027,Personal Care,China,2.3,Glass,Sea,4347,standard,6.0
+1028,Product 1028,Personal Care,USA,1.58,Plastic,Air,9387,express,37.08
+1029,Product 1029,Grocery,China,4.33,Plastic,Road,218,standard,0.94
+1030,Product 1030,Personal Care,China,2.94,Metal,Air,9103,standard,66.91
+1031,Product 1031,Grocery,India,1.79,Carton,Sea,9672,standard,10.39
+1032,Product 1032,Grocery,Germany,3.7,BioPlastic,Road,808,express,2.99
+1033,Product 1033,Home Decor,China,0.99,Glass,Sea,4452,express,2.64
+1034,Product 1034,Personal Care,Vietnam,4.65,Metal,Sea,269,standard,0.75
+1035,Product 1035,Stationery,China,1.63,Carton,Air,3678,express,14.99
+1036,Product 1036,Electronics,Vietnam,4.47,Carton,Road,4056,standard,18.13
+1037,Product 1037,Grocery,Vietnam,4.89,Paper,Air,5110,express,62.47
+1038,Product 1038,Electronics,USA,4.6,Paper,Air,2317,express,26.65
+1039,Product 1039,Personal Care,China,2.39,Metal,Air,3631,standard,21.7
+1040,Product 1040,Fashion,China,3.27,Paper,Sea,4781,express,9.38
+1041,Product 1041,Electronics,USA,0.8,BioPlastic,Sea,5290,express,2.54
+1042,Product 1042,Stationery,Italy,3.15,Glass,Sea,897,express,1.7
+1043,Product 1043,Electronics,Italy,1.43,Metal,Road,6953,standard,9.94
+1044,Product 1044,Home Decor,USA,3.83,Carton,Sea,4095,express,9.41
+1045,Product 1045,Electronics,USA,1.54,Metal,Sea,6596,standard,6.09
+1046,Product 1046,Grocery,India,1.92,Paper,Sea,8827,standard,10.17
+1047,Product 1047,Electronics,Italy,1.15,Glass,Sea,421,standard,0.29
+1048,Product 1048,Stationery,Germany,4.85,Paper,Air,4087,express,49.55
+1049,Product 1049,Electronics,Vietnam,1.49,BioPlastic,Road,1936,express,2.88
+1050,Product 1050,Fashion,Vietnam,3.71,Plastic,Road,2180,express,8.09
+1051,Product 1051,Grocery,China,4.93,Paper,Road,7877,express,38.83
+1052,Product 1052,Fashion,Germany,3.66,Metal,Air,2046,standard,18.72
+1053,Product 1053,Personal Care,Italy,4.1,Paper,Sea,7068,express,17.39
+1054,Product 1054,Personal Care,Vietnam,0.88,Paper,Sea,3364,standard,1.78
+1055,Product 1055,Personal Care,China,1.76,Metal,Road,2371,standard,4.17
+1056,Product 1056,Personal Care,Vietnam,0.18,Plastic,Sea,4033,express,0.44
+1057,Product 1057,Toys,China,0.41,Metal,Air,7678,express,7.87
+1058,Product 1058,Home Decor,Germany,3.87,Plastic,Air,7864,standard,76.08
+1059,Product 1059,Toys,Germany,3.88,BioPlastic,Air,5655,standard,54.85
+1060,Product 1060,Stationery,Vietnam,0.73,Paper,Air,2349,express,4.29
+1061,Product 1061,Stationery,Italy,0.47,Metal,Sea,422,express,0.12
+1062,Product 1062,Fashion,Vietnam,0.43,Glass,Sea,1280,express,0.33
+1063,Product 1063,Electronics,Italy,4.38,BioPlastic,Air,5702,express,62.44
+1064,Product 1064,Toys,India,1.16,Plastic,Road,1719,express,1.99
+1065,Product 1065,Home Decor,Germany,4.59,Glass,Road,9452,express,43.38
+1066,Product 1066,Stationery,Vietnam,4.31,BioPlastic,Road,3366,express,14.51
+1067,Product 1067,Home Decor,Bangladesh,4.43,Paper,Road,656,express,2.91
+1068,Product 1068,Electronics,Vietnam,3.03,Glass,Sea,9326,standard,16.95
+1069,Product 1069,Grocery,China,3.68,Carton,Sea,211,express,0.47
+1070,Product 1070,Personal Care,Bangladesh,3.15,BioPlastic,Road,5326,express,16.78
+1071,Product 1071,Grocery,India,3.23,Paper,Air,7144,express,57.69
+1072,Product 1072,Electronics,Vietnam,4.29,Paper,Sea,390,express,1.0
+1073,Product 1073,Personal Care,India,2.67,Plastic,Sea,6608,standard,10.59
+1074,Product 1074,Personal Care,Germany,4.31,Plastic,Road,2424,standard,10.45
+1075,Product 1075,Stationery,Bangladesh,0.24,BioPlastic,Air,779,standard,0.47
+1076,Product 1076,Grocery,Bangladesh,3.24,Metal,Road,7547,express,24.45
+1077,Product 1077,Home Decor,Germany,2.84,Carton,Air,8664,express,61.51
+1078,Product 1078,Home Decor,India,2.15,BioPlastic,Air,4588,express,24.66
+1079,Product 1079,Personal Care,Vietnam,3.89,Metal,Air,1885,standard,18.33
+1080,Product 1080,Grocery,Italy,1.66,Carton,Road,5181,standard,8.6
+1081,Product 1081,Electronics,India,3.42,Carton,Sea,4937,express,10.13
+1082,Product 1082,Grocery,USA,1.51,Carton,Sea,1503,standard,1.36
+1083,Product 1083,Home Decor,India,1.7,Metal,Air,6250,express,26.56
+1084,Product 1084,Stationery,India,0.57,Plastic,Air,9843,standard,14.03
+1085,Product 1085,Home Decor,Vietnam,2.6,Paper,Road,4598,express,11.95
+1086,Product 1086,Electronics,USA,2.38,Metal,Sea,1334,express,1.9
+1087,Product 1087,Fashion,Bangladesh,0.89,Plastic,Road,8985,express,8.0
+1088,Product 1088,Home Decor,Vietnam,4.26,BioPlastic,Road,2151,standard,9.16
+1089,Product 1089,Fashion,India,0.57,Carton,Air,5772,standard,8.23
+1090,Product 1090,Fashion,Vietnam,4.65,Paper,Road,7199,standard,33.48
+1091,Product 1091,Toys,Bangladesh,4.51,Paper,Road,7994,express,36.05
+1092,Product 1092,Fashion,USA,1.76,Paper,Air,5964,express,26.24
+1093,Product 1093,Toys,Bangladesh,4.58,Paper,Road,1063,standard,4.87
+1094,Product 1094,Fashion,India,1.18,BioPlastic,Sea,4514,standard,3.2
+1095,Product 1095,Electronics,Italy,0.26,Paper,Road,5473,standard,1.42
+1096,Product 1096,Home Decor,India,3.1,Carton,Sea,9318,express,17.33
+1097,Product 1097,Stationery,Germany,0.35,Glass,Road,4073,express,1.43
+1098,Product 1098,Grocery,China,2.34,BioPlastic,Road,6427,express,15.04
+1099,Product 1099,Home Decor,Germany,3.26,Carton,Air,453,standard,3.69
+1100,Product 1100,Fashion,Bangladesh,0.44,Metal,Road,271,express,0.12
+1101,Product 1101,Stationery,USA,0.46,Plastic,Sea,6981,express,1.93
+1102,Product 1102,Toys,India,4.51,Carton,Road,2584,standard,11.65
+1103,Product 1103,Toys,Germany,4.86,Paper,Air,2669,express,32.43
+1104,Product 1104,Grocery,Vietnam,1.06,BioPlastic,Road,9909,standard,10.5
+1105,Product 1105,Electronics,Bangladesh,1.6,Carton,Sea,7892,express,7.58
+1106,Product 1106,Stationery,USA,0.41,BioPlastic,Road,3148,standard,1.29
+1107,Product 1107,Home Decor,China,3.84,Metal,Air,6433,standard,61.76
+1108,Product 1108,Toys,USA,2.91,BioPlastic,Air,7510,standard,54.64
+1109,Product 1109,Toys,China,2.71,Plastic,Air,6938,express,47.0
+1110,Product 1110,Grocery,China,2.77,Paper,Air,5859,express,40.57
+1111,Product 1111,Personal Care,USA,4.35,Carton,Road,7429,standard,32.32
+1112,Product 1112,Fashion,Germany,4.24,BioPlastic,Sea,3364,express,8.56
+1113,Product 1113,Toys,USA,3.48,Metal,Sea,8118,standard,16.95
+1114,Product 1114,Fashion,Bangladesh,0.94,Paper,Air,9415,standard,22.13
+1115,Product 1115,Grocery,Italy,1.64,Glass,Sea,5989,standard,5.89
+1116,Product 1116,Electronics,Bangladesh,1.45,Carton,Sea,6058,express,5.27
+1117,Product 1117,Toys,Bangladesh,4.1,Metal,Air,7797,standard,79.92
+1118,Product 1118,Electronics,USA,3.53,Paper,Air,7603,express,67.1
+1119,Product 1119,Fashion,USA,0.49,Carton,Road,8988,standard,4.4
+1120,Product 1120,Grocery,Germany,0.45,Metal,Road,988,express,0.44
+1121,Product 1121,Electronics,China,2.61,Paper,Road,4950,express,12.92
+1122,Product 1122,Fashion,China,4.97,Carton,Road,466,standard,2.32
+1123,Product 1123,Fashion,Italy,0.76,Carton,Air,9819,standard,18.66
+1124,Product 1124,Electronics,Bangladesh,3.47,Glass,Sea,377,express,0.78
+1125,Product 1125,Stationery,Bangladesh,3.91,BioPlastic,Sea,4387,standard,10.29
+1126,Product 1126,Electronics,USA,1.38,Paper,Road,404,standard,0.56
+1127,Product 1127,Electronics,China,0.54,BioPlastic,Sea,4698,express,1.52
+1128,Product 1128,Home Decor,Germany,3.03,Plastic,Air,9294,express,70.4
+1129,Product 1129,Home Decor,Germany,0.35,Paper,Sea,6769,express,1.42
+1130,Product 1130,Stationery,Germany,3.58,Glass,Sea,2235,standard,4.8
+1131,Product 1131,Personal Care,Bangladesh,0.98,Glass,Air,8618,express,21.11
+1132,Product 1132,Personal Care,Germany,0.48,Carton,Air,6134,express,7.36
+1133,Product 1133,Toys,Germany,0.66,Carton,Sea,7764,standard,3.07
+1134,Product 1134,Stationery,Germany,0.31,Glass,Air,8548,express,6.62
+1135,Product 1135,Toys,Germany,1.86,Metal,Air,3968,express,18.45
+1136,Product 1136,Home Decor,Germany,1.2,Paper,Road,3439,standard,4.13
+1137,Product 1137,Grocery,Italy,2.13,Glass,Air,5016,express,26.71
+1138,Product 1138,Fashion,Vietnam,0.42,Glass,Air,9431,standard,9.9
+1139,Product 1139,Personal Care,China,4.1,Plastic,Sea,2504,express,6.16
+1140,Product 1140,Stationery,USA,1.48,Metal,Sea,7626,express,6.77
+1141,Product 1141,Stationery,Bangladesh,3.01,BioPlastic,Sea,9861,standard,17.81
+1142,Product 1142,Grocery,India,3.03,Glass,Air,627,express,4.75
+1143,Product 1143,Grocery,Germany,0.11,Carton,Air,1925,standard,0.53
+1144,Product 1144,Fashion,Germany,0.19,Carton,Sea,218,express,0.02
+1145,Product 1145,Toys,USA,0.55,Metal,Sea,691,standard,0.23
+1146,Product 1146,Home Decor,China,1.78,BioPlastic,Sea,5779,express,6.17
+1147,Product 1147,Personal Care,USA,1.66,Plastic,Road,1799,standard,2.99
+1148,Product 1148,Electronics,China,0.53,Metal,Air,5547,standard,7.35
+1149,Product 1149,Grocery,Bangladesh,4.61,Paper,Air,187,standard,2.16
+1150,Product 1150,Home Decor,Germany,2.3,Metal,Air,9404,standard,54.07
+1151,Product 1151,Electronics,Italy,2.64,Metal,Road,8841,express,23.34
+1152,Product 1152,Home Decor,Italy,2.89,BioPlastic,Air,493,express,3.56
+1153,Product 1153,Home Decor,Vietnam,4.96,Glass,Air,373,express,4.63
+1154,Product 1154,Personal Care,Italy,2.27,Metal,Air,1864,standard,10.58
+1155,Product 1155,Toys,China,0.89,Metal,Sea,1759,standard,0.94
+1156,Product 1156,Grocery,Germany,1.44,Paper,Air,2359,standard,8.49
+1157,Product 1157,Stationery,USA,2.43,BioPlastic,Road,1622,express,3.94
+1158,Product 1158,Stationery,India,1.45,Carton,Road,2177,express,3.16
+1159,Product 1159,Toys,USA,4.23,BioPlastic,Air,6935,standard,73.34
+1160,Product 1160,Electronics,India,1.56,BioPlastic,Air,4290,standard,16.73
+1161,Product 1161,Toys,Vietnam,4.39,Plastic,Air,4975,standard,54.6
+1162,Product 1162,Fashion,USA,2.54,Carton,Air,4531,express,28.77
+1163,Product 1163,Grocery,Vietnam,1.08,BioPlastic,Sea,6690,express,4.34
+1164,Product 1164,Fashion,China,3.41,Plastic,Road,5649,express,19.26
+1165,Product 1165,Toys,Vietnam,4.64,BioPlastic,Road,2889,express,13.4
+1166,Product 1166,Stationery,China,4.74,Plastic,Air,9627,express,114.08
+1167,Product 1167,Toys,India,2.69,Glass,Sea,2850,standard,4.6
+1168,Product 1168,Grocery,Bangladesh,4.22,BioPlastic,Air,3643,standard,38.43
+1169,Product 1169,Personal Care,India,4.5,BioPlastic,Road,9709,standard,43.69
+1170,Product 1170,Electronics,Italy,4.42,Paper,Air,9984,express,110.32
+1171,Product 1171,Stationery,USA,1.04,Paper,Sea,4986,standard,3.11
+1172,Product 1172,Grocery,Bangladesh,0.91,BioPlastic,Sea,4175,express,2.28
+1173,Product 1173,Toys,Italy,0.52,Glass,Air,1221,standard,1.59
+1174,Product 1174,Home Decor,Vietnam,4.67,BioPlastic,Sea,5116,standard,14.34
+1175,Product 1175,Personal Care,India,3.86,Carton,Road,8219,standard,31.73
+1176,Product 1176,Stationery,India,3.9,Plastic,Air,8671,express,84.54
+1177,Product 1177,Electronics,China,2.05,Metal,Sea,4472,express,5.5
+1178,Product 1178,Personal Care,Germany,0.91,Paper,Road,8036,standard,7.31
+1179,Product 1179,Home Decor,Vietnam,0.9,Carton,Sea,2535,standard,1.37
+1180,Product 1180,Toys,Italy,2.79,Metal,Road,4016,express,11.2
+1181,Product 1181,Electronics,Bangladesh,4.67,Paper,Road,4151,standard,19.39
+1182,Product 1182,Personal Care,Vietnam,2.33,Paper,Air,9189,express,53.53
+1183,Product 1183,Personal Care,USA,4.82,Paper,Sea,7237,standard,20.93
+1184,Product 1184,Fashion,USA,3.23,Metal,Sea,1950,standard,3.78
+1185,Product 1185,Home Decor,India,1.84,Glass,Road,9883,standard,18.18
+1186,Product 1186,Fashion,Vietnam,1.89,Paper,Air,4558,standard,21.54
+1187,Product 1187,Toys,Bangladesh,3.8,Metal,Road,9843,standard,37.4
+1188,Product 1188,Home Decor,Vietnam,0.68,Plastic,Air,2522,standard,4.29
+1189,Product 1189,Stationery,USA,1.25,BioPlastic,Air,7971,express,24.91
+1190,Product 1190,Personal Care,India,4.6,Metal,Road,4039,express,18.58
+1191,Product 1191,Grocery,China,2.67,Metal,Sea,5943,express,9.52
+1192,Product 1192,Electronics,USA,1.59,Carton,Sea,4615,express,4.4
+1193,Product 1193,Electronics,Vietnam,1.79,Carton,Sea,5437,express,5.84
+1194,Product 1194,Grocery,Germany,4.89,BioPlastic,Road,9050,express,44.25
+1195,Product 1195,Electronics,Germany,1.81,BioPlastic,Road,1380,express,2.5
+1196,Product 1196,Grocery,Bangladesh,3.45,Metal,Sea,6139,standard,12.71
+1197,Product 1197,Fashion,Italy,3.23,Paper,Road,6431,express,20.77
+1198,Product 1198,Fashion,USA,3.58,Glass,Sea,1967,express,4.23
+1199,Product 1199,Home Decor,Germany,1.43,Metal,Road,644,standard,0.92
+1200,Product 1200,Electronics,China,4.03,Metal,Sea,454,express,1.1
+1201,Product 1201,Electronics,Germany,0.87,Glass,Road,8583,standard,7.47
+1202,Product 1202,Grocery,India,4.71,Glass,Air,4279,standard,50.39
+1203,Product 1203,Electronics,USA,3.82,Carton,Road,1282,standard,4.9
+1204,Product 1204,Grocery,India,3.82,Glass,Road,5894,standard,22.52
+1205,Product 1205,Toys,USA,2.99,Carton,Sea,6544,express,11.74
+1206,Product 1206,Personal Care,Vietnam,0.16,Glass,Air,9227,express,3.69
+1207,Product 1207,Home Decor,USA,4.86,Plastic,Sea,4025,standard,11.74
+1208,Product 1208,Home Decor,Germany,4.11,Carton,Air,2928,express,30.09
+1209,Product 1209,Toys,India,2.77,Metal,Air,6316,standard,43.74
+1210,Product 1210,Stationery,Italy,2.32,Paper,Air,1826,express,10.59
+1211,Product 1211,Toys,Italy,2.22,Paper,Road,9113,express,20.23
+1212,Product 1212,Toys,China,0.47,Glass,Sea,110,express,0.03
+1213,Product 1213,Personal Care,Vietnam,2.89,Glass,Road,5128,express,14.82
+1214,Product 1214,Personal Care,Bangladesh,0.67,Plastic,Air,831,standard,1.39
+1215,Product 1215,Fashion,China,4.53,Carton,Air,1590,standard,18.01
+1216,Product 1216,Toys,USA,3.8,Glass,Sea,3049,standard,6.95
+1217,Product 1217,Grocery,India,0.18,Metal,Air,8399,standard,3.78
+1218,Product 1218,Home Decor,Vietnam,3.77,Carton,Sea,5085,express,11.5
+1219,Product 1219,Electronics,Bangladesh,1.45,Carton,Air,6169,express,22.36
+1220,Product 1220,Stationery,Bangladesh,1.06,BioPlastic,Sea,3594,express,2.29
+1221,Product 1221,Fashion,China,4.24,Paper,Air,9970,standard,105.68
+1222,Product 1222,Home Decor,China,1.93,Plastic,Road,9426,standard,18.19
+1223,Product 1223,Toys,India,0.98,Glass,Air,2182,express,5.35
+1224,Product 1224,Toys,Italy,4.39,Paper,Sea,2918,standard,7.69
+1225,Product 1225,Home Decor,China,3.47,Glass,Air,4704,express,40.81
+1226,Product 1226,Electronics,USA,2.99,Plastic,Road,9000,standard,26.91
+1227,Product 1227,Personal Care,Italy,0.28,Glass,Road,717,standard,0.2
+1228,Product 1228,Home Decor,USA,0.66,Paper,Air,2816,standard,4.65
+1229,Product 1229,Fashion,Italy,3.49,Paper,Sea,8307,express,17.39
+1230,Product 1230,Grocery,USA,0.81,BioPlastic,Road,4273,standard,3.46
+1231,Product 1231,Personal Care,USA,1.93,Metal,Road,7141,standard,13.78
+1232,Product 1232,Electronics,Italy,2.78,Carton,Air,3284,standard,22.82
+1233,Product 1233,Home Decor,Germany,0.41,Paper,Air,2592,standard,2.66
+1234,Product 1234,Toys,Germany,0.86,BioPlastic,Sea,1495,express,0.77
+1235,Product 1235,Personal Care,India,4.99,Carton,Road,8213,express,40.98
+1236,Product 1236,Personal Care,Bangladesh,0.51,BioPlastic,Road,3102,express,1.58
+1237,Product 1237,Stationery,Germany,4.32,BioPlastic,Road,8917,express,38.52
+1238,Product 1238,Toys,USA,1.33,Paper,Road,1347,standard,1.79
+1239,Product 1239,Stationery,Italy,4.48,BioPlastic,Sea,9058,standard,24.35
+1240,Product 1240,Electronics,Italy,1.86,BioPlastic,Air,8587,standard,39.93
+1241,Product 1241,Personal Care,USA,2.32,Glass,Road,668,standard,1.55
+1242,Product 1242,Fashion,Vietnam,1.83,Metal,Air,8166,express,37.36
+1243,Product 1243,Toys,China,3.3,BioPlastic,Sea,8710,standard,17.25
+1244,Product 1244,Electronics,Bangladesh,5.0,Metal,Road,6971,standard,34.85
+1245,Product 1245,Fashion,Bangladesh,4.61,BioPlastic,Road,6392,express,29.47
+1246,Product 1246,Electronics,Bangladesh,1.58,Paper,Air,3965,standard,15.66
+1247,Product 1247,Electronics,Vietnam,2.17,Glass,Sea,3138,standard,4.09
+1248,Product 1248,Toys,Germany,1.31,Glass,Road,7047,standard,9.23
+1249,Product 1249,Fashion,USA,2.35,Plastic,Air,9862,express,57.94
+1250,Product 1250,Home Decor,Germany,1.74,Plastic,Road,9003,standard,15.67
+1251,Product 1251,Grocery,Italy,4.38,Metal,Air,870,express,9.53
+1252,Product 1252,Personal Care,China,1.4,Glass,Road,8401,standard,11.76
+1253,Product 1253,Grocery,Vietnam,2.19,Carton,Sea,7719,standard,10.14
+1254,Product 1254,Fashion,Italy,1.86,Paper,Air,308,standard,1.43
+1255,Product 1255,Grocery,China,1.72,Plastic,Sea,7759,express,8.01
+1256,Product 1256,Toys,India,4.48,Plastic,Sea,5313,express,14.28
+1257,Product 1257,Personal Care,Vietnam,1.91,Paper,Sea,5665,express,6.49
+1258,Product 1258,Fashion,India,3.84,Plastic,Air,6578,express,63.15
+1259,Product 1259,Personal Care,India,3.61,Carton,Air,1168,express,10.54
+1260,Product 1260,Electronics,India,2.84,Plastic,Road,7225,standard,20.52
+1261,Product 1261,Home Decor,Bangladesh,3.12,Carton,Air,1720,standard,13.42
+1262,Product 1262,Fashion,Germany,2.1,BioPlastic,Sea,5581,express,7.03
+1263,Product 1263,Stationery,Germany,4.26,Metal,Sea,4540,standard,11.6
+1264,Product 1264,Stationery,Vietnam,4.01,BioPlastic,Road,4933,standard,19.78
+1265,Product 1265,Personal Care,Bangladesh,4.58,Glass,Sea,5415,express,14.88
+1266,Product 1266,Personal Care,Bangladesh,1.86,Glass,Road,481,standard,0.89
+1267,Product 1267,Stationery,Italy,0.93,Metal,Air,5717,standard,13.29
+1268,Product 1268,Electronics,Vietnam,3.89,Carton,Sea,4075,standard,9.51
+1269,Product 1269,Home Decor,USA,2.1,Metal,Air,6063,standard,31.83
+1270,Product 1270,Electronics,India,1.34,BioPlastic,Road,6490,express,8.7
+1271,Product 1271,Stationery,Vietnam,2.02,Metal,Sea,741,standard,0.9
+1272,Product 1272,Home Decor,Italy,1.02,Plastic,Road,1082,standard,1.1
+1273,Product 1273,Electronics,Vietnam,4.1,Carton,Sea,9668,express,23.78
+1274,Product 1274,Grocery,USA,1.58,Plastic,Road,3383,standard,5.35
+1275,Product 1275,Home Decor,Germany,1.79,Paper,Road,7591,express,13.59
+1276,Product 1276,Home Decor,China,1.61,Paper,Sea,3456,standard,3.34
+1277,Product 1277,Toys,USA,2.72,Metal,Road,9841,express,26.77
+1278,Product 1278,Fashion,USA,3.33,Metal,Air,5631,standard,46.88
+1279,Product 1279,Personal Care,India,4.03,Plastic,Air,5317,express,53.57
+1280,Product 1280,Grocery,Germany,4.5,Metal,Road,606,standard,2.73
+1281,Product 1281,Fashion,Italy,2.44,Paper,Air,1558,express,9.5
+1282,Product 1282,Grocery,USA,2.31,Carton,Air,6109,standard,35.28
+1283,Product 1283,Toys,China,3.22,BioPlastic,Road,5868,express,18.89
+1284,Product 1284,Electronics,China,2.31,Metal,Road,2853,express,6.59
+1285,Product 1285,Stationery,India,4.61,Glass,Sea,1403,standard,3.88
+1286,Product 1286,Personal Care,India,4.31,BioPlastic,Air,6087,express,65.59
+1287,Product 1287,Electronics,Germany,2.11,Glass,Sea,1727,express,2.19
+1288,Product 1288,Toys,China,1.41,BioPlastic,Sea,9773,express,8.27
+1289,Product 1289,Grocery,Vietnam,1.21,BioPlastic,Road,3013,express,3.65
+1290,Product 1290,Toys,Vietnam,3.26,Paper,Air,6136,express,50.01
+1291,Product 1291,Electronics,India,0.35,Paper,Air,5693,standard,4.98
+1292,Product 1292,Personal Care,India,3.21,Metal,Sea,4828,express,9.3
+1293,Product 1293,Fashion,Italy,2.0,BioPlastic,Air,3290,standard,16.45
+1294,Product 1294,Grocery,Italy,0.54,Carton,Air,4617,express,6.23
+1295,Product 1295,Toys,Vietnam,1.73,BioPlastic,Air,8258,standard,35.72
+1296,Product 1296,Grocery,India,2.82,Paper,Road,7719,express,21.77
+1297,Product 1297,Home Decor,Vietnam,1.58,BioPlastic,Air,3678,standard,14.53
+1298,Product 1298,Electronics,China,3.08,Carton,Air,9002,express,69.32
+1299,Product 1299,Fashion,Bangladesh,2.74,BioPlastic,Road,822,express,2.25
+1300,Product 1300,Fashion,Vietnam,1.39,Metal,Air,6806,standard,23.65
+1301,Product 1301,Stationery,USA,4.75,Plastic,Air,786,standard,9.33
+1302,Product 1302,Home Decor,Bangladesh,3.38,Plastic,Sea,6227,express,12.63
+1303,Product 1303,Personal Care,Italy,0.81,Plastic,Road,2412,express,1.95
+1304,Product 1304,Personal Care,India,3.31,Plastic,Road,4302,standard,14.24
+1305,Product 1305,Grocery,Vietnam,3.57,Carton,Sea,2583,express,5.53
+1306,Product 1306,Grocery,USA,1.26,Plastic,Air,894,standard,2.82
+1307,Product 1307,Home Decor,Bangladesh,1.85,Glass,Road,7516,standard,13.9
+1308,Product 1308,Home Decor,Bangladesh,4.91,Metal,Road,4979,express,24.45
+1309,Product 1309,Grocery,Vietnam,1.79,Paper,Air,6231,express,27.88
+1310,Product 1310,Fashion,India,3.62,Plastic,Sea,2248,express,4.88
+1311,Product 1311,Grocery,India,2.58,Plastic,Sea,453,express,0.7
+1312,Product 1312,Grocery,Vietnam,2.9,Plastic,Sea,3444,standard,5.99
+1313,Product 1313,Fashion,Vietnam,2.28,Paper,Road,6539,standard,14.91
+1314,Product 1314,Personal Care,Italy,3.64,Glass,Air,5686,express,51.74
+1315,Product 1315,Fashion,USA,1.93,Carton,Air,806,express,3.89
+1316,Product 1316,Electronics,Germany,3.2,Paper,Road,6557,express,20.98
+1317,Product 1317,Grocery,Italy,2.43,BioPlastic,Air,6987,standard,42.45
+1318,Product 1318,Fashion,Italy,1.38,Paper,Sea,6342,standard,5.25
+1319,Product 1319,Fashion,China,0.29,Metal,Air,801,standard,0.58
+1320,Product 1320,Toys,Italy,1.44,BioPlastic,Air,5812,standard,20.92
+1321,Product 1321,Personal Care,China,1.51,Paper,Sea,2167,standard,1.96
+1322,Product 1322,Toys,Vietnam,4.0,BioPlastic,Air,2685,express,26.85
+1323,Product 1323,Toys,Vietnam,1.66,Paper,Sea,2048,standard,2.04
+1324,Product 1324,Fashion,India,2.11,Plastic,Road,3688,standard,7.78
+1325,Product 1325,Personal Care,Vietnam,4.23,Plastic,Road,6519,standard,27.58
+1326,Product 1326,Fashion,India,3.19,Glass,Road,1710,express,5.45
+1327,Product 1327,Toys,Vietnam,0.95,BioPlastic,Air,8326,express,19.77
+1328,Product 1328,Fashion,India,1.37,Metal,Air,9261,express,31.72
+1329,Product 1329,Toys,Bangladesh,2.84,BioPlastic,Air,3424,express,24.31
+1330,Product 1330,Electronics,Bangladesh,1.29,Metal,Road,1915,express,2.47
+1331,Product 1331,Personal Care,Bangladesh,3.82,Metal,Sea,6248,express,14.32
+1332,Product 1332,Electronics,India,4.16,Plastic,Air,5370,standard,55.85
+1333,Product 1333,Stationery,Vietnam,2.57,Carton,Sea,8672,standard,13.37
+1334,Product 1334,Electronics,India,2.16,Glass,Road,6788,standard,14.66
+1335,Product 1335,Home Decor,Germany,0.19,Plastic,Road,1261,standard,0.24
+1336,Product 1336,Personal Care,China,4.27,Glass,Road,220,standard,0.94
+1337,Product 1337,Personal Care,China,2.9,BioPlastic,Road,7135,standard,20.69
+1338,Product 1338,Stationery,Italy,2.72,Glass,Sea,5876,express,9.59
+1339,Product 1339,Toys,Germany,3.09,Plastic,Sea,2674,express,4.96
+1340,Product 1340,Fashion,Italy,1.25,Paper,Road,383,standard,0.48
+1341,Product 1341,Fashion,India,2.17,Paper,Sea,7203,express,9.38
+1342,Product 1342,Toys,Germany,2.81,BioPlastic,Sea,4665,express,7.87
+1343,Product 1343,Stationery,Italy,3.72,Paper,Sea,1791,standard,4.0
+1344,Product 1344,Personal Care,India,0.11,Glass,Road,6257,standard,0.69
+1345,Product 1345,Stationery,Vietnam,3.6,Paper,Road,8029,standard,28.9
+1346,Product 1346,Grocery,Italy,0.31,BioPlastic,Sea,5507,standard,1.02
+1347,Product 1347,Stationery,USA,1.19,Carton,Air,3024,express,9.0
+1348,Product 1348,Home Decor,Germany,3.32,Carton,Air,4298,express,35.67
+1349,Product 1349,Electronics,India,1.68,Paper,Air,6884,express,28.91
+1350,Product 1350,Fashion,USA,2.62,Metal,Road,688,express,1.8
+1351,Product 1351,Grocery,Italy,3.49,Glass,Sea,944,standard,1.98
+1352,Product 1352,Toys,Germany,1.5,Carton,Road,4335,standard,6.5
+1353,Product 1353,Personal Care,Germany,3.72,Plastic,Air,6017,express,55.96
+1354,Product 1354,Personal Care,Bangladesh,0.79,Glass,Air,1098,express,2.17
+1355,Product 1355,Personal Care,USA,2.36,Metal,Sea,7348,express,10.4
+1356,Product 1356,Grocery,Bangladesh,1.59,Plastic,Sea,908,express,0.87
+1357,Product 1357,Grocery,India,0.4,Metal,Sea,4252,standard,1.02
+1358,Product 1358,Toys,Germany,2.86,Plastic,Air,4578,standard,32.73
+1359,Product 1359,Grocery,China,3.62,Carton,Sea,5061,express,10.99
+1360,Product 1360,Home Decor,Germany,3.15,Paper,Road,591,standard,1.86
+1361,Product 1361,Home Decor,Germany,2.44,Plastic,Air,5268,express,32.13
+1362,Product 1362,Home Decor,Bangladesh,1.26,Metal,Sea,950,express,0.72
+1363,Product 1363,Stationery,India,2.36,Glass,Sea,1095,express,1.55
+1364,Product 1364,Home Decor,Vietnam,4.3,Carton,Sea,5540,express,14.29
+1365,Product 1365,Grocery,India,4.11,Metal,Air,1465,standard,15.05
+1366,Product 1366,Stationery,China,0.21,Plastic,Air,2851,express,1.5
+1367,Product 1367,Grocery,Bangladesh,0.3,Carton,Sea,3249,standard,0.58
+1368,Product 1368,Electronics,Vietnam,4.52,BioPlastic,Air,9090,standard,102.72
+1369,Product 1369,Fashion,Vietnam,1.34,BioPlastic,Road,537,standard,0.72
+1370,Product 1370,Personal Care,India,0.25,Glass,Air,7212,standard,4.51
+1371,Product 1371,Personal Care,Germany,4.11,BioPlastic,Road,1294,express,5.32
+1372,Product 1372,Fashion,USA,3.06,BioPlastic,Road,3370,standard,10.31
+1373,Product 1373,Stationery,USA,1.19,BioPlastic,Air,7267,express,21.62
+1374,Product 1374,Grocery,Germany,2.65,Paper,Air,6324,standard,41.9
+1375,Product 1375,Electronics,USA,3.62,Plastic,Sea,1038,express,2.25
+1376,Product 1376,Grocery,Germany,3.41,Glass,Air,6349,express,54.13
+1377,Product 1377,Home Decor,Bangladesh,1.21,BioPlastic,Air,1528,express,4.62
+1378,Product 1378,Stationery,China,0.18,Carton,Sea,9903,standard,1.07
+1379,Product 1379,Fashion,Bangladesh,3.12,BioPlastic,Sea,1977,standard,3.7
+1380,Product 1380,Electronics,Germany,4.85,Metal,Road,7185,standard,34.85
+1381,Product 1381,Grocery,China,3.54,Paper,Road,4673,express,16.54
+1382,Product 1382,Stationery,Germany,2.65,BioPlastic,Air,4246,express,28.13
+1383,Product 1383,Electronics,India,0.6,Carton,Sea,5799,standard,2.09
+1384,Product 1384,Grocery,Bangladesh,0.25,Paper,Air,7531,express,4.71
+1385,Product 1385,Electronics,Italy,4.51,BioPlastic,Air,2817,standard,31.76
+1386,Product 1386,Fashion,Italy,1.32,Glass,Road,566,standard,0.75
+1387,Product 1387,Grocery,Italy,0.46,BioPlastic,Sea,5532,express,1.53
+1388,Product 1388,Home Decor,Italy,3.94,Paper,Sea,7933,express,18.75
+1389,Product 1389,Fashion,Italy,3.15,Paper,Road,9696,express,30.54
+1390,Product 1390,Toys,Bangladesh,4.29,Metal,Road,7015,express,30.09
+1391,Product 1391,Home Decor,Italy,3.19,Paper,Road,3799,express,12.12
+1392,Product 1392,Electronics,Italy,2.75,BioPlastic,Road,3193,express,8.78
+1393,Product 1393,Electronics,USA,4.11,Glass,Air,2638,express,27.11
+1394,Product 1394,Electronics,Italy,3.48,Metal,Air,5767,express,50.17
+1395,Product 1395,Home Decor,China,1.71,Carton,Road,4244,standard,7.26
+1396,Product 1396,Toys,Italy,3.48,Carton,Air,6884,express,59.89
+1397,Product 1397,Electronics,China,2.97,Carton,Sea,7222,standard,12.87
+1398,Product 1398,Fashion,Vietnam,1.2,Plastic,Sea,6822,standard,4.91
+1399,Product 1399,Home Decor,Bangladesh,4.8,Paper,Road,7852,express,37.69
+1400,Product 1400,Home Decor,Vietnam,1.91,Glass,Road,1266,standard,2.42
+1401,Product 1401,Grocery,Vietnam,3.81,BioPlastic,Air,9875,express,94.06
+1402,Product 1402,Home Decor,Italy,3.65,Plastic,Sea,2533,express,5.55
+1403,Product 1403,Stationery,USA,3.77,Paper,Sea,4696,standard,10.62
+1404,Product 1404,Home Decor,Germany,2.4,Paper,Road,9786,standard,23.49
+1405,Product 1405,Toys,Bangladesh,1.96,Paper,Road,237,express,0.46
+1406,Product 1406,Electronics,Bangladesh,3.04,BioPlastic,Air,6408,express,48.7
+1407,Product 1407,Fashion,China,4.08,Plastic,Air,7665,express,78.18
+1408,Product 1408,Grocery,Bangladesh,4.64,Metal,Air,2553,express,29.61
+1409,Product 1409,Stationery,Vietnam,4.59,Paper,Sea,6191,express,17.05
+1410,Product 1410,Personal Care,USA,3.7,Glass,Sea,9972,express,22.14
+1411,Product 1411,Fashion,Bangladesh,3.26,Carton,Air,5105,express,41.61
+1412,Product 1412,Fashion,Vietnam,3.45,Plastic,Air,3944,express,34.02
+1413,Product 1413,Personal Care,China,0.81,BioPlastic,Sea,135,standard,0.07
+1414,Product 1414,Stationery,Germany,2.04,Metal,Air,9463,standard,48.26
+1415,Product 1415,Electronics,Vietnam,3.88,Carton,Air,5915,express,57.38
+1416,Product 1416,Home Decor,India,4.46,Plastic,Air,7468,express,83.27
+1417,Product 1417,Grocery,Vietnam,3.84,BioPlastic,Sea,3756,standard,8.65
+1418,Product 1418,Home Decor,India,2.47,Metal,Air,6258,express,38.64
+1419,Product 1419,Toys,Germany,1.25,Glass,Sea,6632,express,4.97
+1420,Product 1420,Personal Care,Italy,3.37,Plastic,Air,8386,standard,70.65
+1421,Product 1421,Electronics,India,3.18,BioPlastic,Air,1380,express,10.97
+1422,Product 1422,Toys,Bangladesh,3.2,Carton,Sea,4065,express,7.8
+1423,Product 1423,Electronics,Vietnam,2.01,Plastic,Road,1299,standard,2.61
+1424,Product 1424,Grocery,Germany,1.25,Glass,Sea,413,standard,0.31
+1425,Product 1425,Electronics,Italy,3.0,BioPlastic,Air,8858,express,66.44
+1426,Product 1426,Grocery,Germany,1.12,Paper,Sea,6919,express,4.65
+1427,Product 1427,Fashion,Bangladesh,4.95,Metal,Air,3324,express,41.13
+1428,Product 1428,Toys,Italy,3.65,Plastic,Sea,1065,express,2.33
+1429,Product 1429,Toys,Bangladesh,2.65,Paper,Road,7110,standard,18.84
+1430,Product 1430,Toys,India,0.39,Plastic,Road,2572,standard,1.0
+1431,Product 1431,Grocery,Vietnam,2.13,Metal,Sea,4221,express,5.39
+1432,Product 1432,Toys,Italy,3.33,Paper,Air,9005,express,74.97
+1433,Product 1433,Grocery,China,3.48,Plastic,Road,1046,express,3.64
+1434,Product 1434,Toys,Vietnam,1.03,Carton,Air,3622,express,9.33
+1435,Product 1435,Toys,Bangladesh,2.76,Plastic,Road,4454,standard,12.29
+1436,Product 1436,Electronics,Vietnam,2.87,BioPlastic,Sea,7815,standard,13.46
+1437,Product 1437,Home Decor,Germany,0.76,Paper,Air,9861,standard,18.74
+1438,Product 1438,Stationery,Vietnam,0.27,Metal,Air,4053,express,2.74
+1439,Product 1439,Electronics,India,4.14,BioPlastic,Road,2976,express,12.32
+1440,Product 1440,Personal Care,Vietnam,2.6,BioPlastic,Sea,2492,express,3.89
+1441,Product 1441,Grocery,China,1.94,BioPlastic,Sea,9965,standard,11.6
+1442,Product 1442,Stationery,USA,0.88,Metal,Air,1811,express,3.98
+1443,Product 1443,Grocery,Italy,2.2,BioPlastic,Sea,711,express,0.94
+1444,Product 1444,Fashion,China,3.64,Metal,Road,931,express,3.39
+1445,Product 1445,Fashion,India,3.68,Glass,Road,4870,express,17.92
+1446,Product 1446,Grocery,Italy,0.5,Plastic,Air,6502,express,8.13
+1447,Product 1447,Fashion,USA,3.22,Paper,Air,8359,express,67.29
+1448,Product 1448,Grocery,India,0.23,Metal,Road,8444,express,1.94
+1449,Product 1449,Personal Care,Germany,3.88,Carton,Sea,3028,express,7.05
+1450,Product 1450,Home Decor,Bangladesh,3.82,BioPlastic,Sea,9885,express,22.66
+1451,Product 1451,Fashion,Vietnam,1.88,Metal,Air,5503,standard,25.86
+1452,Product 1452,Grocery,Vietnam,0.74,Plastic,Sea,1297,standard,0.58
+1453,Product 1453,Electronics,India,3.43,Plastic,Sea,5647,standard,11.62
+1454,Product 1454,Stationery,Bangladesh,4.34,Plastic,Road,8655,express,37.56
+1455,Product 1455,Electronics,Italy,4.68,Paper,Sea,2369,express,6.65
+1456,Product 1456,Toys,India,3.97,Plastic,Road,4618,express,18.33
+1457,Product 1457,Electronics,USA,3.77,Glass,Air,4200,express,39.59
+1458,Product 1458,Toys,Bangladesh,0.48,Paper,Air,9779,standard,11.73
+1459,Product 1459,Grocery,China,4.4,BioPlastic,Sea,5949,express,15.71
+1460,Product 1460,Electronics,Vietnam,2.78,Metal,Air,1727,express,12.0
+1461,Product 1461,Stationery,USA,3.9,Glass,Sea,7446,standard,17.42
+1462,Product 1462,Home Decor,USA,2.03,BioPlastic,Road,1696,standard,3.44
+1463,Product 1463,Home Decor,Vietnam,1.48,BioPlastic,Sea,9834,express,8.73
+1464,Product 1464,Personal Care,Germany,2.62,Metal,Air,7247,standard,47.47
+1465,Product 1465,Electronics,India,0.22,BioPlastic,Sea,1508,express,0.2
+1466,Product 1466,Fashion,Italy,2.19,Paper,Sea,9066,standard,11.91
+1467,Product 1467,Toys,USA,3.18,Carton,Air,3183,standard,25.3
+1468,Product 1468,Personal Care,Italy,4.42,Carton,Air,8206,standard,90.68
+1469,Product 1469,Electronics,Vietnam,0.1,Glass,Sea,7685,express,0.46
+1470,Product 1470,Fashion,India,3.32,BioPlastic,Road,6441,standard,21.38
+1471,Product 1471,Stationery,Germany,0.56,Metal,Air,6833,express,9.57
+1472,Product 1472,Personal Care,Bangladesh,4.22,Plastic,Road,2312,express,9.76
+1473,Product 1473,Home Decor,Vietnam,3.69,Carton,Sea,2102,express,4.65
+1474,Product 1474,Grocery,USA,3.87,Metal,Road,3538,express,13.69
+1475,Product 1475,Home Decor,Bangladesh,3.73,Plastic,Road,3247,express,12.11
+1476,Product 1476,Grocery,Germany,4.98,Paper,Road,5295,standard,26.37
+1477,Product 1477,Personal Care,Bangladesh,3.39,Glass,Sea,348,express,0.71
+1478,Product 1478,Home Decor,Germany,2.0,Carton,Air,5557,express,27.79
+1479,Product 1479,Toys,India,4.39,Metal,Sea,1545,express,4.07
+1480,Product 1480,Electronics,Italy,0.75,BioPlastic,Air,3768,express,7.07
+1481,Product 1481,Personal Care,USA,1.43,Paper,Air,7792,standard,27.86
+1482,Product 1482,Home Decor,Germany,3.66,Carton,Road,4486,standard,16.42
+1483,Product 1483,Electronics,Germany,3.18,Plastic,Air,858,standard,6.82
+1484,Product 1484,Home Decor,Vietnam,2.36,Plastic,Air,7226,standard,42.63
+1485,Product 1485,Fashion,USA,4.19,Paper,Sea,3213,express,8.08
+1486,Product 1486,Toys,China,4.41,Metal,Road,2944,standard,12.98
+1487,Product 1487,Grocery,Italy,2.27,Glass,Road,3418,express,7.76
+1488,Product 1488,Grocery,Bangladesh,3.42,Paper,Air,1977,standard,16.9
+1489,Product 1489,Stationery,Italy,1.83,BioPlastic,Sea,9340,standard,10.26
+1490,Product 1490,Toys,India,4.4,Carton,Sea,8761,express,23.13
+1491,Product 1491,Electronics,India,4.68,Plastic,Sea,8403,express,23.6
+1492,Product 1492,Electronics,Germany,0.93,Paper,Road,1935,express,1.8
+1493,Product 1493,Stationery,India,0.7,Metal,Road,8931,express,6.25
+1494,Product 1494,Fashion,China,4.89,BioPlastic,Road,4808,express,23.51
+1495,Product 1495,Fashion,USA,2.64,Plastic,Air,8086,standard,53.37
+1496,Product 1496,Stationery,Vietnam,4.64,Metal,Road,5442,express,25.25
+1497,Product 1497,Grocery,Germany,0.74,Glass,Sea,9362,express,4.16
+1498,Product 1498,Personal Care,USA,1.87,Metal,Air,4624,standard,21.62
+1499,Product 1499,Personal Care,India,0.92,Carton,Air,8321,standard,19.14
+1500,Product 1500,Personal Care,Germany,4.14,Metal,Sea,5718,express,14.2
+1501,Product 1501,Home Decor,China,3.83,Glass,Road,7415,express,28.4
+1502,Product 1502,Home Decor,China,4.13,Metal,Air,5544,standard,57.24
+1503,Product 1503,Stationery,China,4.75,Paper,Road,8569,express,40.7
+1504,Product 1504,Stationery,Vietnam,0.92,Metal,Air,8079,standard,18.58
+1505,Product 1505,Home Decor,Germany,3.64,BioPlastic,Air,5669,express,51.59
+1506,Product 1506,Electronics,Bangladesh,0.22,BioPlastic,Road,2055,standard,0.45
+1507,Product 1507,Toys,China,3.09,Plastic,Road,2491,express,7.7
+1508,Product 1508,Home Decor,India,0.22,Carton,Air,4091,express,2.25
+1509,Product 1509,Home Decor,Germany,3.04,BioPlastic,Air,9798,standard,74.46
+1510,Product 1510,Electronics,Vietnam,4.19,Plastic,Road,7836,standard,32.83
+1511,Product 1511,Personal Care,Vietnam,3.5,Metal,Sea,6499,standard,13.65
+1512,Product 1512,Stationery,China,4.71,Plastic,Sea,1673,standard,4.73
+1513,Product 1513,Grocery,USA,0.33,Plastic,Sea,4004,express,0.79
+1514,Product 1514,Stationery,Germany,1.29,Glass,Sea,6323,standard,4.89
+1515,Product 1515,Electronics,China,3.57,Plastic,Sea,8237,express,17.64
+1516,Product 1516,Personal Care,Bangladesh,2.42,Paper,Air,7964,standard,48.18
+1517,Product 1517,Toys,Germany,1.12,Glass,Road,9401,standard,10.53
+1518,Product 1518,Fashion,China,3.97,Paper,Road,2558,express,10.16
+1519,Product 1519,Grocery,Italy,3.67,Paper,Road,3210,express,11.78
+1520,Product 1520,Electronics,Bangladesh,1.8,Paper,Road,3375,standard,6.08
+1521,Product 1521,Fashion,Bangladesh,0.43,Glass,Sea,2919,express,0.75
+1522,Product 1522,Toys,USA,1.5,Metal,Air,3201,express,12.0
+1523,Product 1523,Stationery,Bangladesh,3.3,Metal,Road,1087,express,3.59
+1524,Product 1524,Personal Care,India,2.09,BioPlastic,Air,7932,standard,41.44
+1525,Product 1525,Home Decor,India,1.03,Metal,Air,4236,standard,10.91
+1526,Product 1526,Stationery,India,0.4,Paper,Road,8057,express,3.22
+1527,Product 1527,Electronics,China,0.59,Glass,Air,5853,express,8.63
+1528,Product 1528,Stationery,India,2.0,Carton,Road,7236,express,14.47
+1529,Product 1529,Home Decor,India,2.53,Metal,Air,8736,express,55.26
+1530,Product 1530,Grocery,USA,4.01,Carton,Sea,6449,express,15.52
+1531,Product 1531,Toys,Bangladesh,0.56,Carton,Road,8233,standard,4.61
+1532,Product 1532,Stationery,USA,3.83,BioPlastic,Air,2907,express,27.83
+1533,Product 1533,Electronics,Italy,2.36,Paper,Sea,4032,express,5.71
+1534,Product 1534,Stationery,Germany,0.74,Carton,Sea,5818,standard,2.58
+1535,Product 1535,Electronics,Vietnam,4.65,Plastic,Sea,8273,express,23.08
+1536,Product 1536,Home Decor,Germany,0.68,BioPlastic,Air,7102,express,12.07
+1537,Product 1537,Home Decor,China,1.43,Carton,Sea,950,express,0.82
+1538,Product 1538,Stationery,USA,4.86,Metal,Road,2378,express,11.56
+1539,Product 1539,Stationery,Germany,3.68,Plastic,Air,8238,express,75.79
+1540,Product 1540,Home Decor,Germany,4.75,Carton,Sea,7822,standard,22.29
+1541,Product 1541,Electronics,Germany,3.68,BioPlastic,Sea,9252,standard,20.43
+1542,Product 1542,Electronics,Germany,1.64,BioPlastic,Sea,5569,express,5.48
+1543,Product 1543,Home Decor,Italy,3.74,Metal,Air,4639,express,43.37
+1544,Product 1544,Electronics,India,0.63,Carton,Road,2241,standard,1.41
+1545,Product 1545,Stationery,China,1.17,Plastic,Road,7513,standard,8.79
+1546,Product 1546,Fashion,India,4.85,Paper,Air,2631,standard,31.9
+1547,Product 1547,Stationery,China,3.32,BioPlastic,Road,3772,standard,12.52
+1548,Product 1548,Electronics,India,4.52,Paper,Road,4551,standard,20.57
+1549,Product 1549,Fashion,USA,0.99,Glass,Sea,7098,express,4.22
+1550,Product 1550,Grocery,Italy,3.4,Glass,Air,8817,express,74.94
+1551,Product 1551,Personal Care,USA,2.16,Paper,Sea,9506,standard,12.32
+1552,Product 1552,Stationery,China,4.33,Glass,Road,8204,express,35.52
+1553,Product 1553,Toys,Vietnam,2.68,Plastic,Air,811,express,5.43
+1554,Product 1554,Stationery,Italy,3.64,Plastic,Air,1661,standard,15.12
+1555,Product 1555,Grocery,India,0.51,Plastic,Air,1996,standard,2.54
+1556,Product 1556,Home Decor,Bangladesh,0.99,Paper,Sea,1418,standard,0.84
+1557,Product 1557,Toys,Vietnam,2.83,Paper,Road,8225,express,23.28
+1558,Product 1558,Stationery,Vietnam,2.86,BioPlastic,Sea,7037,express,12.08
+1559,Product 1559,Home Decor,Vietnam,0.84,Metal,Sea,3933,standard,1.98
+1560,Product 1560,Personal Care,Bangladesh,2.3,Carton,Sea,5564,express,7.68
+1561,Product 1561,Electronics,India,2.94,Metal,Sea,5058,standard,8.92
+1562,Product 1562,Electronics,USA,0.14,Carton,Sea,6252,express,0.53
+1563,Product 1563,Stationery,Vietnam,1.01,Carton,Road,6922,express,6.99
+1564,Product 1564,Stationery,USA,0.42,Metal,Sea,7832,standard,1.97
+1565,Product 1565,Fashion,Bangladesh,3.75,Paper,Air,677,express,6.35
+1566,Product 1566,Home Decor,China,1.41,Glass,Sea,6242,standard,5.28
+1567,Product 1567,Stationery,India,4.73,Metal,Road,7532,standard,35.63
+1568,Product 1568,Stationery,China,1.0,Paper,Sea,7400,express,4.44
+1569,Product 1569,Toys,China,4.48,BioPlastic,Air,2821,express,31.6
+1570,Product 1570,Electronics,Bangladesh,4.85,Plastic,Air,9422,express,114.24
+1571,Product 1571,Toys,Vietnam,0.82,Carton,Road,5404,standard,4.43
+1572,Product 1572,Toys,Germany,1.96,BioPlastic,Sea,1918,standard,2.26
+1573,Product 1573,Stationery,Vietnam,1.33,Glass,Sea,2357,standard,1.88
+1574,Product 1574,Personal Care,Germany,3.25,BioPlastic,Air,2178,express,17.7
+1575,Product 1575,Fashion,Bangladesh,4.89,BioPlastic,Air,9828,standard,120.15
+1576,Product 1576,Personal Care,Germany,1.25,Paper,Air,2021,standard,6.32
+1577,Product 1577,Toys,Italy,0.56,Carton,Road,5333,standard,2.99
+1578,Product 1578,Grocery,China,1.84,BioPlastic,Road,6690,standard,12.31
+1579,Product 1579,Grocery,USA,1.6,Paper,Sea,5459,standard,5.24
+1580,Product 1580,Personal Care,Bangladesh,0.26,Metal,Sea,9268,express,1.45
+1581,Product 1581,Electronics,China,0.65,Plastic,Air,5443,standard,8.84
+1582,Product 1582,Personal Care,USA,3.8,Carton,Sea,3613,express,8.24
+1583,Product 1583,Grocery,India,4.54,Carton,Air,6233,express,70.74
+1584,Product 1584,Toys,China,1.12,Glass,Air,3633,express,10.17
+1585,Product 1585,Home Decor,USA,1.6,Plastic,Air,9325,standard,37.3
+1586,Product 1586,Electronics,Vietnam,2.15,BioPlastic,Sea,7068,express,9.12
+1587,Product 1587,Stationery,Bangladesh,0.48,Plastic,Sea,8764,standard,2.52
+1588,Product 1588,Toys,China,3.15,Glass,Road,2928,express,9.22
+1589,Product 1589,Home Decor,Italy,1.58,Glass,Sea,6304,standard,5.98
+1590,Product 1590,Electronics,China,1.37,Carton,Sea,8729,express,7.18
+1591,Product 1591,Toys,China,2.19,Metal,Air,8075,express,44.21
+1592,Product 1592,Toys,India,2.03,Carton,Sea,3923,express,4.78
+1593,Product 1593,Fashion,China,1.21,Glass,Road,6125,standard,7.41
+1594,Product 1594,Grocery,Vietnam,1.77,Metal,Sea,9944,standard,10.56
+1595,Product 1595,Fashion,India,0.35,Plastic,Road,2620,standard,0.92
+1596,Product 1596,Personal Care,China,1.06,Glass,Sea,8559,express,5.44
+1597,Product 1597,Personal Care,Bangladesh,4.13,Paper,Air,4737,express,48.91
+1598,Product 1598,Fashion,China,4.44,BioPlastic,Air,5943,standard,65.97
+1599,Product 1599,Grocery,Italy,4.66,Plastic,Sea,8123,standard,22.71
+1600,Product 1600,Grocery,USA,1.53,Paper,Air,3662,standard,14.01
+1601,Product 1601,Home Decor,China,2.37,Glass,Air,7036,express,41.69
+1602,Product 1602,Stationery,India,0.28,Glass,Road,9241,express,2.59
+1603,Product 1603,Stationery,China,3.15,Glass,Road,1506,express,4.74
+1604,Product 1604,Grocery,USA,1.84,Carton,Sea,5598,express,6.18
+1605,Product 1605,Electronics,USA,1.26,BioPlastic,Road,4965,express,6.26
+1606,Product 1606,Fashion,Germany,1.99,Metal,Sea,8980,standard,10.72
+1607,Product 1607,Electronics,USA,1.96,Metal,Air,9892,express,48.47
+1608,Product 1608,Electronics,Bangladesh,0.58,Carton,Air,8675,express,12.58
+1609,Product 1609,Fashion,Italy,0.5,Metal,Road,6459,standard,3.23
+1610,Product 1610,Stationery,Germany,3.55,Carton,Sea,223,standard,0.47
+1611,Product 1611,Grocery,Italy,4.61,Metal,Road,4403,standard,20.3
+1612,Product 1612,Grocery,Italy,1.94,Carton,Road,8017,express,15.55
+1613,Product 1613,Electronics,China,1.74,Carton,Road,6621,standard,11.52
+1614,Product 1614,Personal Care,Germany,0.88,Metal,Sea,9545,standard,5.04
+1615,Product 1615,Electronics,Bangladesh,2.94,Glass,Air,3637,standard,26.73
+1616,Product 1616,Toys,Vietnam,3.75,Paper,Sea,5879,express,13.23
+1617,Product 1617,Toys,Bangladesh,4.71,Plastic,Air,3666,standard,43.17
+1618,Product 1618,Personal Care,Bangladesh,1.61,Plastic,Air,6659,express,26.8
+1619,Product 1619,Home Decor,Vietnam,2.54,Metal,Sea,4062,standard,6.19
+1620,Product 1620,Toys,USA,2.28,BioPlastic,Air,762,express,4.34
+1621,Product 1621,Grocery,China,4.05,Glass,Air,1693,express,17.14
+1622,Product 1622,Grocery,China,3.44,Glass,Sea,4406,standard,9.09
+1623,Product 1623,Personal Care,Italy,0.22,BioPlastic,Air,6962,express,3.83
+1624,Product 1624,Electronics,Germany,3.03,Plastic,Road,1366,standard,4.14
+1625,Product 1625,Home Decor,Italy,2.99,Glass,Air,5891,standard,44.04
+1626,Product 1626,Stationery,China,0.12,BioPlastic,Sea,8293,standard,0.6
+1627,Product 1627,Grocery,China,0.51,Glass,Road,8023,express,4.09
+1628,Product 1628,Fashion,China,1.77,Metal,Road,4009,standard,7.1
+1629,Product 1629,Personal Care,Vietnam,3.29,Paper,Sea,5601,standard,11.06
+1630,Product 1630,Electronics,USA,1.6,Glass,Road,1660,express,2.66
+1631,Product 1631,Home Decor,USA,2.91,Plastic,Air,4861,express,35.36
+1632,Product 1632,Grocery,India,1.85,Glass,Air,3278,express,15.16
+1633,Product 1633,Grocery,China,1.49,Metal,Road,8031,express,11.97
+1634,Product 1634,Stationery,Germany,0.95,Metal,Air,3148,standard,7.48
+1635,Product 1635,Personal Care,Vietnam,4.62,Paper,Air,5647,express,65.22
+1636,Product 1636,Grocery,Bangladesh,3.75,Plastic,Sea,8185,express,18.42
+1637,Product 1637,Home Decor,USA,2.47,BioPlastic,Sea,4954,express,7.34
+1638,Product 1638,Toys,China,3.69,Plastic,Air,7760,standard,71.59
+1639,Product 1639,Personal Care,China,1.0,Glass,Sea,4246,express,2.55
+1640,Product 1640,Stationery,USA,2.72,Paper,Sea,1061,standard,1.73
+1641,Product 1641,Stationery,China,1.94,Glass,Air,6311,standard,30.61
+1642,Product 1642,Fashion,Italy,3.29,Carton,Air,194,standard,1.6
+1643,Product 1643,Fashion,Italy,0.59,Plastic,Air,2597,standard,3.83
+1644,Product 1644,Fashion,Vietnam,4.45,Carton,Sea,1789,standard,4.78
+1645,Product 1645,Electronics,China,0.31,BioPlastic,Air,3181,standard,2.47
+1646,Product 1646,Grocery,Italy,4.16,Metal,Sea,4699,standard,11.73
+1647,Product 1647,Home Decor,Bangladesh,3.98,Carton,Air,5612,express,55.84
+1648,Product 1648,Stationery,India,0.67,Paper,Sea,4637,express,1.86
+1649,Product 1649,Toys,Italy,4.96,Paper,Sea,2039,express,6.07
+1650,Product 1650,Stationery,Italy,3.6,Paper,Sea,4660,express,10.07
+1651,Product 1651,Fashion,Germany,2.66,Paper,Road,6115,standard,16.27
+1652,Product 1652,Electronics,Vietnam,1.41,Glass,Road,8724,standard,12.3
+1653,Product 1653,Toys,China,0.27,Glass,Road,4480,standard,1.21
+1654,Product 1654,Fashion,USA,4.59,Metal,Road,6191,express,28.42
+1655,Product 1655,Grocery,USA,4.47,Plastic,Air,110,express,1.23
+1656,Product 1656,Stationery,China,1.24,BioPlastic,Road,6769,standard,8.39
+1657,Product 1657,Fashion,Italy,3.48,Metal,Sea,2899,express,6.05
+1658,Product 1658,Toys,Bangladesh,1.47,Metal,Air,1771,express,6.51
+1659,Product 1659,Grocery,China,1.39,Metal,Road,4544,standard,6.32
+1660,Product 1660,Toys,China,3.89,Plastic,Sea,6538,standard,15.26
+1661,Product 1661,Electronics,USA,1.77,Metal,Air,8990,express,39.78
+1662,Product 1662,Stationery,Germany,2.87,Metal,Sea,7564,express,13.03
+1663,Product 1663,Fashion,Vietnam,1.68,Plastic,Sea,3040,express,3.06
+1664,Product 1664,Fashion,Vietnam,1.55,Plastic,Air,4788,express,18.55
+1665,Product 1665,Toys,India,3.48,Metal,Sea,9755,standard,20.37
+1666,Product 1666,Grocery,USA,3.24,Plastic,Air,3495,express,28.31
+1667,Product 1667,Toys,Bangladesh,2.15,BioPlastic,Sea,6739,express,8.69
+1668,Product 1668,Electronics,Vietnam,1.41,Carton,Sea,6042,express,5.11
+1669,Product 1669,Electronics,USA,3.95,Metal,Air,7347,standard,72.55
+1670,Product 1670,Electronics,Bangladesh,4.33,Paper,Air,2256,standard,24.42
+1671,Product 1671,Personal Care,Italy,4.32,Glass,Road,3949,express,17.06
+1672,Product 1672,Stationery,USA,2.14,Plastic,Road,8254,express,17.66
+1673,Product 1673,Electronics,Germany,0.72,BioPlastic,Road,9127,express,6.57
+1674,Product 1674,Personal Care,Germany,2.25,Plastic,Road,3071,standard,6.91
+1675,Product 1675,Grocery,India,0.71,Paper,Sea,8468,express,3.61
+1676,Product 1676,Electronics,Germany,0.54,Carton,Road,7612,express,4.11
+1677,Product 1677,Fashion,India,1.26,BioPlastic,Road,5936,standard,7.48
+1678,Product 1678,Fashion,China,4.25,Metal,Road,2815,standard,11.96
+1679,Product 1679,Electronics,Germany,3.4,Glass,Road,739,express,2.51
+1680,Product 1680,Fashion,China,1.18,Glass,Sea,2730,express,1.93
+1681,Product 1681,Toys,Germany,1.64,Glass,Road,6072,standard,9.96
+1682,Product 1682,Stationery,Bangladesh,1.11,Plastic,Road,5144,standard,5.71
+1683,Product 1683,Fashion,Vietnam,4.9,BioPlastic,Air,4955,express,60.7
+1684,Product 1684,Stationery,China,1.33,Glass,Road,9472,standard,12.6
+1685,Product 1685,Home Decor,Italy,4.77,Carton,Air,946,express,11.28
+1686,Product 1686,Toys,USA,3.22,Metal,Air,2746,express,22.11
+1687,Product 1687,Electronics,Italy,0.53,Plastic,Sea,1755,express,0.56
+1688,Product 1688,Grocery,Vietnam,4.76,Metal,Air,2100,standard,24.99
+1689,Product 1689,Home Decor,Bangladesh,2.61,Carton,Air,776,express,5.06
+1690,Product 1690,Grocery,India,1.28,Glass,Sea,7830,standard,6.01
+1691,Product 1691,Toys,USA,1.07,Carton,Road,9680,standard,10.36
+1692,Product 1692,Personal Care,Bangladesh,4.24,Paper,Air,3879,standard,41.12
+1693,Product 1693,Electronics,China,4.68,Glass,Air,4025,express,47.09
+1694,Product 1694,Stationery,Germany,4.5,Glass,Road,6685,standard,30.08
+1695,Product 1695,Electronics,Vietnam,4.06,Plastic,Air,1299,express,13.18
+1696,Product 1696,Home Decor,Germany,2.95,Carton,Sea,9101,standard,16.11
+1697,Product 1697,Stationery,USA,3.96,Paper,Road,3192,express,12.64
+1698,Product 1698,Grocery,China,4.88,Paper,Road,8646,express,42.19
+1699,Product 1699,Electronics,China,1.0,Plastic,Air,7752,standard,19.38
+1700,Product 1700,Toys,USA,3.16,Carton,Sea,844,standard,1.6
+1701,Product 1701,Electronics,China,1.46,BioPlastic,Sea,6537,standard,5.73
+1702,Product 1702,Home Decor,USA,3.99,Plastic,Sea,2692,express,6.44
+1703,Product 1703,Home Decor,Italy,0.97,BioPlastic,Air,5335,express,12.94
+1704,Product 1704,Toys,China,1.93,BioPlastic,Road,1181,express,2.28
+1705,Product 1705,Toys,China,1.76,Paper,Sea,741,standard,0.78
+1706,Product 1706,Home Decor,USA,1.14,Plastic,Road,7963,express,9.08
+1707,Product 1707,Home Decor,China,3.12,BioPlastic,Sea,7100,standard,13.29
+1708,Product 1708,Grocery,China,1.63,Metal,Air,8515,express,34.7
+1709,Product 1709,Stationery,India,0.26,BioPlastic,Road,7321,standard,1.9
+1710,Product 1710,Toys,Vietnam,4.06,Metal,Road,9002,express,36.55
+1711,Product 1711,Stationery,Bangladesh,4.29,Plastic,Air,5989,standard,64.23
+1712,Product 1712,Electronics,Germany,3.68,Plastic,Sea,285,express,0.63
+1713,Product 1713,Home Decor,India,1.19,Carton,Air,6236,express,18.55
+1714,Product 1714,Electronics,Bangladesh,3.03,Metal,Air,4948,standard,37.48
+1715,Product 1715,Stationery,Italy,3.57,Plastic,Air,8434,express,75.27
+1716,Product 1716,Toys,China,2.72,BioPlastic,Air,8419,standard,57.25
+1717,Product 1717,Home Decor,Bangladesh,0.19,Carton,Air,4695,standard,2.23
+1718,Product 1718,Grocery,India,4.18,Metal,Road,6606,standard,27.61
+1719,Product 1719,Toys,Vietnam,1.05,Paper,Road,4692,standard,4.93
+1720,Product 1720,Electronics,China,3.02,Carton,Sea,5875,express,10.65
+1721,Product 1721,Personal Care,India,3.09,Metal,Air,5731,standard,44.27
+1722,Product 1722,Toys,Bangladesh,4.25,Plastic,Road,1427,standard,6.06
+1723,Product 1723,Electronics,Germany,4.68,Carton,Air,814,express,9.52
+1724,Product 1724,Grocery,Germany,2.47,Plastic,Road,5863,express,14.48
+1725,Product 1725,Grocery,China,0.67,Glass,Air,3184,express,5.33
+1726,Product 1726,Electronics,Italy,2.08,Glass,Sea,8558,express,10.68
+1727,Product 1727,Home Decor,Germany,2.4,Glass,Sea,9727,express,14.01
+1728,Product 1728,Fashion,Vietnam,3.63,Glass,Road,4465,standard,16.21
+1729,Product 1729,Toys,Vietnam,3.72,Carton,Sea,6520,standard,14.55
+1730,Product 1730,Electronics,Vietnam,1.23,Glass,Road,9113,standard,11.21
+1731,Product 1731,Personal Care,Bangladesh,3.26,Glass,Air,9914,express,80.8
+1732,Product 1732,Electronics,China,4.15,Paper,Sea,8240,standard,20.52
+1733,Product 1733,Electronics,China,3.42,BioPlastic,Sea,5079,express,10.42
+1734,Product 1734,Toys,Vietnam,3.36,Paper,Sea,6921,standard,13.95
+1735,Product 1735,Electronics,Italy,0.72,Carton,Road,8025,standard,5.78
+1736,Product 1736,Fashion,Italy,1.26,Metal,Sea,6536,standard,4.94
+1737,Product 1737,Fashion,Bangladesh,4.62,Carton,Road,8029,standard,37.09
+1738,Product 1738,Home Decor,Bangladesh,4.23,Plastic,Road,4010,express,16.96
+1739,Product 1739,Personal Care,India,3.04,Plastic,Sea,3162,express,5.77
+1740,Product 1740,Stationery,USA,1.69,Metal,Sea,6191,express,6.28
+1741,Product 1741,Home Decor,Vietnam,1.17,Carton,Air,3996,express,11.69
+1742,Product 1742,Fashion,India,1.89,BioPlastic,Road,1560,standard,2.95
+1743,Product 1743,Electronics,China,1.31,Glass,Air,1022,standard,3.35
+1744,Product 1744,Personal Care,China,3.75,BioPlastic,Air,3345,standard,31.36
+1745,Product 1745,Stationery,China,0.97,Carton,Air,302,express,0.73
+1746,Product 1746,Electronics,Vietnam,2.19,Glass,Road,673,express,1.47
+1747,Product 1747,Personal Care,Germany,2.83,Paper,Sea,9309,express,15.81
+1748,Product 1748,Personal Care,India,1.68,Carton,Sea,2432,express,2.45
+1749,Product 1749,Electronics,USA,1.65,Carton,Air,1063,standard,4.38
+1750,Product 1750,Electronics,USA,3.93,Plastic,Road,1424,express,5.6
+1751,Product 1751,Home Decor,India,4.09,Glass,Air,9107,standard,93.12
+1752,Product 1752,Electronics,India,2.15,Metal,Air,1210,standard,6.5
+1753,Product 1753,Toys,Italy,0.69,Plastic,Sea,7918,standard,3.28
+1754,Product 1754,Stationery,Bangladesh,1.4,Metal,Air,4695,express,16.43
+1755,Product 1755,Stationery,Bangladesh,2.54,Plastic,Road,2799,standard,7.11
+1756,Product 1756,Stationery,Italy,4.03,Metal,Air,3751,express,37.79
+1757,Product 1757,Toys,Germany,2.11,Plastic,Sea,6003,standard,7.6
+1758,Product 1758,Grocery,Germany,3.46,Carton,Road,2018,express,6.98
+1759,Product 1759,Grocery,Vietnam,2.49,Paper,Road,6588,express,16.4
+1760,Product 1760,Home Decor,Bangladesh,4.56,Metal,Sea,4913,express,13.44
+1761,Product 1761,Grocery,Germany,1.7,Carton,Road,7508,express,12.76
+1762,Product 1762,Personal Care,Vietnam,2.97,Plastic,Sea,5949,express,10.6
+1763,Product 1763,Grocery,Germany,4.43,Glass,Sea,2727,express,7.25
+1764,Product 1764,Toys,Vietnam,4.9,Metal,Air,1113,express,13.63
+1765,Product 1765,Home Decor,Vietnam,3.62,Metal,Sea,7914,standard,17.19
+1766,Product 1766,Stationery,Italy,4.95,Glass,Air,6632,express,82.07
+1767,Product 1767,Fashion,China,1.11,BioPlastic,Air,2800,standard,7.77
+1768,Product 1768,Fashion,India,1.81,Metal,Sea,5090,standard,5.53
+1769,Product 1769,Grocery,China,2.5,BioPlastic,Road,851,express,2.13
+1770,Product 1770,Toys,Vietnam,3.8,Paper,Road,508,express,1.93
+1771,Product 1771,Personal Care,India,4.08,Glass,Air,8723,standard,88.97
+1772,Product 1772,Stationery,Bangladesh,1.85,Plastic,Road,7314,express,13.53
+1773,Product 1773,Stationery,USA,1.48,Metal,Air,400,express,1.48
+1774,Product 1774,Grocery,Vietnam,0.55,Paper,Road,3916,express,2.15
+1775,Product 1775,Stationery,Bangladesh,2.84,Metal,Sea,2225,standard,3.79
+1776,Product 1776,Toys,Vietnam,0.2,Carton,Sea,8105,standard,0.97
+1777,Product 1777,Home Decor,Italy,0.15,BioPlastic,Sea,2170,express,0.2
+1778,Product 1778,Stationery,India,3.04,Paper,Sea,133,standard,0.24
+1779,Product 1779,Grocery,China,4.97,Carton,Road,9612,standard,47.77
+1780,Product 1780,Stationery,Italy,3.7,Plastic,Sea,8607,express,19.11
+1781,Product 1781,Stationery,China,4.77,Plastic,Road,1200,express,5.72
+1782,Product 1782,Grocery,China,4.45,Paper,Air,2438,standard,27.12
+1783,Product 1783,Fashion,China,2.97,Metal,Air,8306,express,61.67
+1784,Product 1784,Electronics,China,1.19,Glass,Sea,5184,standard,3.7
+1785,Product 1785,Fashion,Italy,4.92,Paper,Air,4693,standard,57.72
+1786,Product 1786,Grocery,India,4.37,Plastic,Sea,9230,standard,24.2
+1787,Product 1787,Home Decor,Italy,4.14,Paper,Sea,728,standard,1.81
+1788,Product 1788,Home Decor,China,1.75,Plastic,Sea,2812,standard,2.95
+1789,Product 1789,Electronics,Germany,0.42,Glass,Sea,4195,standard,1.06
+1790,Product 1790,Stationery,China,4.75,Plastic,Road,1280,standard,6.08
+1791,Product 1791,Stationery,India,2.4,Glass,Road,5757,standard,13.82
+1792,Product 1792,Home Decor,China,3.54,Metal,Air,7777,standard,68.83
+1793,Product 1793,Toys,USA,0.46,BioPlastic,Sea,6577,standard,1.82
+1794,Product 1794,Personal Care,Italy,3.47,BioPlastic,Road,7524,standard,26.11
+1795,Product 1795,Fashion,Vietnam,2.5,Plastic,Road,3195,standard,7.99
+1796,Product 1796,Electronics,USA,2.68,Plastic,Road,2571,express,6.89
+1797,Product 1797,Stationery,Italy,0.96,Carton,Sea,3577,express,2.06
+1798,Product 1798,Toys,USA,0.77,Carton,Air,9827,express,18.92
+1799,Product 1799,Personal Care,USA,3.04,BioPlastic,Road,6476,standard,19.69
+1800,Product 1800,Toys,Bangladesh,2.67,Paper,Sea,8615,express,13.8
+1801,Product 1801,Toys,Bangladesh,4.41,Paper,Air,182,express,2.01
+1802,Product 1802,Fashion,Italy,0.94,Glass,Air,4645,standard,10.92
+1803,Product 1803,Stationery,Vietnam,3.35,Plastic,Sea,1091,express,2.19
+1804,Product 1804,Grocery,Italy,3.51,Metal,Road,6028,express,21.16
+1805,Product 1805,Grocery,Bangladesh,3.28,Paper,Sea,9480,standard,18.66
+1806,Product 1806,Home Decor,India,0.51,Glass,Air,7060,standard,9.0
+1807,Product 1807,Home Decor,USA,0.81,Plastic,Air,441,express,0.89
+1808,Product 1808,Fashion,Italy,2.63,Glass,Road,1408,express,3.7
+1809,Product 1809,Toys,USA,0.65,BioPlastic,Sea,4331,standard,1.69
+1810,Product 1810,Home Decor,China,4.26,Plastic,Sea,3586,express,9.17
+1811,Product 1811,Stationery,China,1.52,Plastic,Sea,2102,standard,1.92
+1812,Product 1812,Home Decor,Bangladesh,4.29,Carton,Road,3379,standard,14.5
+1813,Product 1813,Grocery,China,1.93,Plastic,Air,4176,standard,20.15
+1814,Product 1814,Stationery,Vietnam,0.61,Paper,Air,6350,standard,9.68
+1815,Product 1815,Electronics,USA,2.01,Metal,Road,5026,standard,10.1
+1816,Product 1816,Home Decor,Italy,2.04,Glass,Road,1434,standard,2.93
+1817,Product 1817,Personal Care,Vietnam,0.47,Glass,Sea,4259,standard,1.2
+1818,Product 1818,Electronics,Vietnam,2.86,Carton,Road,6195,express,17.72
+1819,Product 1819,Fashion,Italy,1.0,Plastic,Air,6130,standard,15.32
+1820,Product 1820,Grocery,Bangladesh,3.12,Metal,Road,5085,express,15.87
+1821,Product 1821,Stationery,Italy,3.29,Plastic,Road,6276,express,20.65
+1822,Product 1822,Home Decor,Vietnam,3.24,Carton,Air,456,standard,3.69
+1823,Product 1823,Grocery,USA,0.99,Plastic,Air,3010,express,7.45
+1824,Product 1824,Grocery,Vietnam,3.25,Carton,Sea,1670,standard,3.26
+1825,Product 1825,Personal Care,Germany,2.84,Paper,Air,5290,express,37.56
+1826,Product 1826,Home Decor,Italy,1.19,Paper,Air,3098,express,9.22
+1827,Product 1827,Stationery,Italy,3.19,Plastic,Air,268,standard,2.14
+1828,Product 1828,Personal Care,India,4.17,Carton,Sea,5635,express,14.1
+1829,Product 1829,Personal Care,Vietnam,3.0,Paper,Air,513,express,3.85
+1830,Product 1830,Home Decor,India,0.67,Paper,Sea,5664,standard,2.28
+1831,Product 1831,Stationery,USA,0.34,Paper,Air,9692,express,8.24
+1832,Product 1832,Personal Care,Germany,2.72,Paper,Road,8795,standard,23.92
+1833,Product 1833,Personal Care,Germany,1.73,BioPlastic,Sea,1635,express,1.7
+1834,Product 1834,Personal Care,Vietnam,1.0,BioPlastic,Sea,502,standard,0.3
+1835,Product 1835,Personal Care,Germany,4.0,Metal,Road,5483,standard,21.93
+1836,Product 1836,Home Decor,Vietnam,2.52,Paper,Road,633,standard,1.6
+1837,Product 1837,Home Decor,India,2.19,Glass,Road,2698,express,5.91
+1838,Product 1838,Stationery,India,2.3,Paper,Road,218,standard,0.5
+1839,Product 1839,Fashion,USA,0.39,Paper,Air,3438,express,3.35
+1840,Product 1840,Electronics,Vietnam,4.47,Metal,Sea,3284,standard,8.81
+1841,Product 1841,Personal Care,Vietnam,2.88,Metal,Sea,6459,express,11.16
+1842,Product 1842,Toys,India,2.01,Paper,Sea,698,express,0.84
+1843,Product 1843,Stationery,India,2.6,Plastic,Road,8404,express,21.85
+1844,Product 1844,Fashion,USA,4.41,Metal,Air,2785,express,30.7
+1845,Product 1845,Personal Care,Vietnam,0.46,Paper,Road,7206,express,3.31
+1846,Product 1846,Personal Care,Italy,2.24,Paper,Road,1523,express,3.41
+1847,Product 1847,Electronics,Vietnam,3.47,Carton,Sea,1645,standard,3.42
+1848,Product 1848,Electronics,Italy,4.15,Glass,Sea,6778,express,16.88
+1849,Product 1849,Home Decor,USA,1.15,Carton,Air,8134,express,23.39
+1850,Product 1850,Personal Care,Vietnam,2.95,Plastic,Air,982,standard,7.24
+1851,Product 1851,Fashion,Vietnam,1.4,Metal,Road,6885,standard,9.64
+1852,Product 1852,Fashion,Bangladesh,1.08,BioPlastic,Sea,7165,standard,4.64
+1853,Product 1853,Grocery,India,4.24,Plastic,Air,2535,standard,26.87
+1854,Product 1854,Personal Care,India,3.02,BioPlastic,Sea,4336,standard,7.86
+1855,Product 1855,Fashion,Vietnam,4.71,Paper,Air,8978,standard,105.72
+1856,Product 1856,Grocery,Bangladesh,2.7,Plastic,Air,2238,standard,15.11
+1857,Product 1857,Toys,India,0.2,Carton,Air,4119,express,2.06
+1858,Product 1858,Home Decor,USA,4.94,Plastic,Road,1020,express,5.04
+1859,Product 1859,Home Decor,India,2.54,Carton,Sea,1818,standard,2.77
+1860,Product 1860,Grocery,Vietnam,3.03,Carton,Road,4964,standard,15.04
+1861,Product 1861,Personal Care,Germany,0.99,Glass,Air,7329,standard,18.14
+1862,Product 1862,Personal Care,Italy,0.58,Paper,Road,3131,standard,1.82
+1863,Product 1863,Home Decor,India,2.03,BioPlastic,Air,9103,express,46.2
+1864,Product 1864,Stationery,China,1.7,Carton,Air,7319,standard,31.11
+1865,Product 1865,Toys,India,2.38,Plastic,Air,4747,express,28.24
+1866,Product 1866,Personal Care,Italy,2.43,Carton,Sea,9670,express,14.1
+1867,Product 1867,Home Decor,Italy,3.03,Paper,Air,7092,express,53.72
+1868,Product 1868,Stationery,Bangladesh,2.23,BioPlastic,Road,7071,express,15.77
+1869,Product 1869,Electronics,Germany,4.8,BioPlastic,Sea,7696,express,22.16
+1870,Product 1870,Fashion,Germany,0.56,Paper,Road,2516,express,1.41
+1871,Product 1871,Personal Care,India,2.93,BioPlastic,Air,2248,express,16.47
+1872,Product 1872,Electronics,China,4.49,Glass,Air,8052,standard,90.38
+1873,Product 1873,Grocery,Italy,4.27,Plastic,Air,8694,express,92.81
+1874,Product 1874,Fashion,China,3.29,Carton,Air,9715,standard,79.91
+1875,Product 1875,Grocery,Germany,4.37,BioPlastic,Road,3611,standard,15.78
+1876,Product 1876,Electronics,Germany,0.49,Carton,Road,9157,standard,4.49
+1877,Product 1877,Fashion,Italy,4.85,BioPlastic,Air,641,express,7.77
+1878,Product 1878,Stationery,USA,2.25,BioPlastic,Road,5245,standard,11.8
+1879,Product 1879,Grocery,USA,3.42,BioPlastic,Road,4540,standard,15.53
+1880,Product 1880,Toys,Bangladesh,1.2,Metal,Air,5130,express,15.39
+1881,Product 1881,Fashion,China,3.17,Carton,Air,4215,express,33.4
+1882,Product 1882,Fashion,India,0.23,Carton,Air,4838,standard,2.78
+1883,Product 1883,Personal Care,India,2.36,Glass,Sea,2624,standard,3.72
+1884,Product 1884,Stationery,Italy,2.92,BioPlastic,Road,4344,standard,12.68
+1885,Product 1885,Stationery,India,4.49,Carton,Air,2561,express,28.75
+1886,Product 1886,Fashion,India,3.05,BioPlastic,Road,419,standard,1.28
+1887,Product 1887,Stationery,India,1.33,Paper,Road,2994,express,3.98
+1888,Product 1888,Grocery,India,1.82,Glass,Road,9689,express,17.63
+1889,Product 1889,Toys,Italy,2.04,Carton,Road,3170,standard,6.47
+1890,Product 1890,Grocery,Germany,2.62,Glass,Sea,4057,standard,6.38
+1891,Product 1891,Stationery,Vietnam,2.9,Metal,Air,2293,standard,16.62
+1892,Product 1892,Home Decor,Germany,2.69,Plastic,Air,4458,express,29.98
+1893,Product 1893,Electronics,India,3.73,BioPlastic,Air,7162,standard,66.79
+1894,Product 1894,Electronics,USA,4.05,Metal,Air,3550,standard,35.94
+1895,Product 1895,Home Decor,Germany,3.7,Paper,Road,6804,standard,25.17
+1896,Product 1896,Fashion,Italy,3.98,BioPlastic,Road,9044,standard,36.0
+1897,Product 1897,Personal Care,Vietnam,3.54,Paper,Sea,9107,standard,19.34
+1898,Product 1898,Grocery,Vietnam,4.74,BioPlastic,Sea,2487,express,7.07
+1899,Product 1899,Personal Care,Germany,1.62,BioPlastic,Air,3339,standard,13.52
+1900,Product 1900,Electronics,Bangladesh,3.6,BioPlastic,Air,3954,standard,35.59
+1901,Product 1901,Fashion,Germany,2.87,Metal,Air,7158,standard,51.36
+1902,Product 1902,Grocery,China,0.31,Glass,Air,3618,standard,2.8
+1903,Product 1903,Fashion,USA,2.58,Paper,Road,9754,express,25.17
+1904,Product 1904,Toys,India,2.7,Metal,Sea,5387,standard,8.73
+1905,Product 1905,Home Decor,China,0.89,Glass,Air,8685,express,19.32
+1906,Product 1906,Fashion,India,1.07,Carton,Road,8357,standard,8.94
+1907,Product 1907,Home Decor,Bangladesh,0.55,Carton,Sea,4426,standard,1.46
+1908,Product 1908,Grocery,China,2.57,Glass,Air,1427,express,9.17
+1909,Product 1909,Electronics,Italy,0.67,Metal,Road,410,standard,0.27
+1910,Product 1910,Fashion,Bangladesh,3.36,Metal,Sea,8390,express,16.91
+1911,Product 1911,Fashion,USA,3.22,Paper,Sea,3132,express,6.05
+1912,Product 1912,Grocery,Bangladesh,1.21,Glass,Road,7379,express,8.93
+1913,Product 1913,Grocery,Vietnam,1.3,Plastic,Air,7749,standard,25.18
+1914,Product 1914,Personal Care,USA,4.23,Carton,Sea,8628,standard,21.9
+1915,Product 1915,Fashion,Vietnam,4.12,Metal,Sea,1119,express,2.77
+1916,Product 1916,Home Decor,China,0.27,Paper,Air,7403,express,5.0
+1917,Product 1917,Stationery,China,1.53,Carton,Air,7329,standard,28.03
+1918,Product 1918,Toys,USA,0.16,Paper,Road,7960,standard,1.27
+1919,Product 1919,Electronics,India,3.18,Glass,Air,4588,standard,36.47
+1920,Product 1920,Fashion,Italy,4.87,BioPlastic,Sea,4459,express,13.03
+1921,Product 1921,Fashion,Bangladesh,1.76,Metal,Road,8563,standard,15.07
+1922,Product 1922,Toys,China,1.39,Plastic,Air,4524,standard,15.72
+1923,Product 1923,Toys,India,4.76,Paper,Air,9624,standard,114.53
+1924,Product 1924,Toys,Germany,1.91,Glass,Air,6389,standard,30.51
+1925,Product 1925,Personal Care,China,1.14,Metal,Road,3274,express,3.73
+1926,Product 1926,Fashion,Germany,3.39,Glass,Air,2454,standard,20.8
+1927,Product 1927,Home Decor,Bangladesh,0.62,BioPlastic,Road,3386,express,2.1
+1928,Product 1928,Toys,USA,3.88,Glass,Sea,337,express,0.78
+1929,Product 1929,Personal Care,Vietnam,3.55,Plastic,Road,4118,express,14.62
+1930,Product 1930,Stationery,China,2.98,Plastic,Air,9471,express,70.56
+1931,Product 1931,Fashion,India,2.38,Plastic,Air,114,standard,0.68
+1932,Product 1932,Fashion,Italy,1.52,Plastic,Sea,504,standard,0.46
+1933,Product 1933,Personal Care,Italy,0.98,Paper,Sea,8199,express,4.82
+1934,Product 1934,Fashion,Vietnam,0.85,Glass,Sea,8105,standard,4.13
+1935,Product 1935,Fashion,Italy,1.47,Paper,Road,3542,express,5.21
+1936,Product 1936,Electronics,India,3.46,Paper,Sea,5515,standard,11.45
+1937,Product 1937,Electronics,Germany,2.18,Metal,Sea,4243,express,5.55
+1938,Product 1938,Toys,USA,3.3,Metal,Road,5451,standard,17.99
+1939,Product 1939,Home Decor,USA,1.38,Plastic,Sea,1740,standard,1.44
+1940,Product 1940,Home Decor,Germany,1.36,Metal,Air,4324,standard,14.7
+1941,Product 1941,Grocery,Italy,2.79,Glass,Road,5580,express,15.57
+1942,Product 1942,Grocery,China,3.47,Paper,Road,9204,express,31.94
+1943,Product 1943,Home Decor,Vietnam,3.38,Glass,Sea,5900,express,11.97
+1944,Product 1944,Fashion,USA,2.0,Paper,Sea,5885,express,7.06
+1945,Product 1945,Stationery,Bangladesh,2.09,Plastic,Sea,3713,standard,4.66
+1946,Product 1946,Personal Care,China,0.36,Plastic,Road,6965,standard,2.51
+1947,Product 1947,Personal Care,China,4.79,Paper,Road,3812,standard,18.26
+1948,Product 1948,Electronics,Bangladesh,1.25,Paper,Road,238,express,0.3
+1949,Product 1949,Stationery,Italy,4.07,BioPlastic,Road,3730,express,15.18
+1950,Product 1950,Stationery,Vietnam,4.69,Plastic,Air,7364,express,86.34
+1951,Product 1951,Fashion,USA,2.1,Plastic,Sea,5131,standard,6.47
+1952,Product 1952,Grocery,Germany,2.11,BioPlastic,Road,5980,standard,12.62
+1953,Product 1953,Grocery,Germany,2.81,Plastic,Sea,5416,standard,9.13
+1954,Product 1954,Stationery,Italy,4.7,Carton,Sea,7108,express,20.04
+1955,Product 1955,Fashion,Germany,1.15,Paper,Sea,9962,express,6.87
+1956,Product 1956,Electronics,Italy,2.08,Glass,Sea,2267,express,2.83
+1957,Product 1957,Electronics,China,4.69,Metal,Road,764,standard,3.58
+1958,Product 1958,Home Decor,India,3.42,Carton,Road,7397,standard,25.3
+1959,Product 1959,Toys,Bangladesh,4.45,Plastic,Sea,1825,express,4.87
+1960,Product 1960,Grocery,Italy,0.79,Metal,Sea,6959,express,3.3
+1961,Product 1961,Personal Care,Vietnam,0.49,Metal,Air,6856,standard,8.4
+1962,Product 1962,Personal Care,India,2.86,Metal,Sea,9309,standard,15.97
+1963,Product 1963,Electronics,Germany,1.73,Carton,Sea,1984,standard,2.06
+1964,Product 1964,Grocery,Italy,0.84,BioPlastic,Air,9550,standard,20.05
+1965,Product 1965,Personal Care,China,1.95,Paper,Road,708,express,1.38
+1966,Product 1966,Personal Care,USA,1.21,Paper,Air,3681,express,11.14
+1967,Product 1967,Home Decor,Germany,0.99,Plastic,Road,6327,standard,6.26
+1968,Product 1968,Grocery,USA,3.21,Glass,Sea,718,express,1.38
+1969,Product 1969,Personal Care,Vietnam,2.13,Plastic,Road,511,express,1.09
+1970,Product 1970,Electronics,China,4.47,Glass,Air,5451,standard,60.91
+1971,Product 1971,Stationery,China,1.04,Paper,Air,1656,express,4.31
+1972,Product 1972,Electronics,Germany,1.19,Glass,Air,791,standard,2.35
+1973,Product 1973,Personal Care,USA,0.44,Glass,Road,1782,standard,0.78
+1974,Product 1974,Stationery,China,0.12,Glass,Sea,6010,standard,0.43
+1975,Product 1975,Electronics,Bangladesh,4.59,Metal,Air,9029,express,103.61
+1976,Product 1976,Electronics,China,3.17,BioPlastic,Road,5638,express,17.87
+1977,Product 1977,Home Decor,India,0.34,Paper,Air,1998,standard,1.7
+1978,Product 1978,Home Decor,USA,3.53,Paper,Road,1078,express,3.81
+1979,Product 1979,Personal Care,China,0.17,Paper,Sea,2415,standard,0.25
+1980,Product 1980,Grocery,China,1.29,Plastic,Air,6504,express,20.98
+1981,Product 1981,Grocery,China,2.79,Plastic,Road,3409,standard,9.51
+1982,Product 1982,Fashion,Bangladesh,1.21,Paper,Sea,2610,standard,1.89
+1983,Product 1983,Fashion,Bangladesh,3.61,Carton,Sea,7542,express,16.34
+1984,Product 1984,Personal Care,Germany,2.94,BioPlastic,Air,9450,express,69.46
+1985,Product 1985,Fashion,Vietnam,1.59,Metal,Road,4278,express,6.8
+1986,Product 1986,Grocery,India,0.27,Glass,Air,7921,standard,5.35
+1987,Product 1987,Toys,Italy,1.32,Plastic,Road,1127,express,1.49
+1988,Product 1988,Personal Care,USA,0.28,Paper,Road,2735,standard,0.77
+1989,Product 1989,Stationery,India,0.17,Metal,Air,6742,standard,2.87
+1990,Product 1990,Electronics,Germany,1.07,Plastic,Air,9120,standard,24.4
+1991,Product 1991,Home Decor,China,3.38,Glass,Sea,6726,standard,13.64
+1992,Product 1992,Stationery,USA,4.03,Plastic,Sea,6817,express,16.48
+1993,Product 1993,Electronics,Germany,3.05,Metal,Road,9073,express,27.67
+1994,Product 1994,Fashion,Bangladesh,4.7,Glass,Road,6640,express,31.21
+1995,Product 1995,Grocery,USA,3.57,Carton,Air,4027,standard,35.94
+1996,Product 1996,Grocery,China,1.91,Paper,Sea,9439,standard,10.82
+1997,Product 1997,Stationery,Italy,2.47,Paper,Road,5790,standard,14.3
+1998,Product 1998,Toys,Italy,2.09,Paper,Road,1386,express,2.9
+1999,Product 1999,Toys,Germany,2.75,Carton,Sea,9384,express,15.48

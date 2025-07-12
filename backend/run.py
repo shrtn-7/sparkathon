@@ -20,4 +20,4 @@ if __name__ == "__main__":
     
     # Run the FastAPI app located at app/main.py
     # REMOVED: reload=True to bypass multiprocessing issues potentially related to Python 3.13
-    uvicorn.run("app.main:app", host="0.0.0.0", port=port)
+    uvicorn.run("app.main:app", host="0.0.0.0", port=port, workers=1)

@@ -1,18 +1,28 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import CarbonScoreForm from './components/CarbonScoreForm';
+import './App.css';
 
 function App() {
-
   return (
-    <>
-      <h1 class="text-3xl bg-amber-300 font-bold underline">
-        Hello world!
-      </h1>
-      <div class="bg-amber-100 p-4 rounded-lg shadow-md">
-        This is a simple card component.
-      </div>
-    </>
-  )
+    <div className="min-h-screen bg-gray-50">
+      <header className="bg-green-600 text-white py-6 mb-8">
+        <div className="container mx-auto px-4">
+          <h1 className="text-3xl font-bold">Carbon-Aware Product Recommendation</h1>
+          <p className="mt-2">Calculate and compare product carbon scores to find greener alternatives</p>
+        </div>
+      </header>
+
+      <main className="container mx-auto px-4">
+        <CarbonScoreForm />
+      </main>
+
+      <footer className="mt-12 py-6 bg-gray-100">
+        <div className="container mx-auto px-4 text-center text-gray-600">
+          <p>© 2024 Carbon-Aware Product Recommendation Engine</p>
+        </div>
+      </footer>
+    </div>
+  );
 }
 
-export default App
+export default App;

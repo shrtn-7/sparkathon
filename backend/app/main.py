@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
+from contextlib import asynccontextmanager
 
 # Import functions to load ML model and product catalog
 from app.models.ml_model import load_ml_model
@@ -11,11 +12,30 @@ from app.data.catalog import load_product_catalog
 from app.routes.products import router as products_router
 from app.routes.recommend import router as recommend_router
 
+# --- Lifespan Context Manager ---
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Startup: Load resources
+    print("Application startup event triggered. Loading resources...")
+    try:
+        load_ml_model(app)
+        load_product_catalog()
+        print("All resources loaded successfully!")
+    except Exception as e:
+        print(f"Failed to load resources on startup: {e}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Backend failed to initialize: {e}"
+        )
+    yield
+    # Cleanup (if needed)
+
 # --- FastAPI App Initialization ---
 app = FastAPI(
     title="Carbon-Aware Product Recommendation Engine API",
     description="API for predicting product carbon scores and recommending greener alternatives.",
-    version="0.1.0"
+    version="0.1.0",
+    lifespan=lifespan
 )
 
 # --- CORS Middleware ---
@@ -31,21 +51,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-# --- Startup Event: Load ML Model and Product Catalog ---
-@app.on_event("startup")
-async def startup_event():
-    print("Application startup event triggered. Loading resources...")
-    try:
-        load_ml_model()
-        load_product_catalog()
-        print("All resources loaded successfully!")
-    except Exception as e:
-        print(f"Failed to load resources on startup: {e}")
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail=f"Backend failed to initialize: {e}"
-        )
 
 # --- Include Routers ---
 app.include_router(products_router, prefix="/api", tags=["Products"])

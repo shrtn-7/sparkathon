@@ -37,3 +37,10 @@ def predict_carbon_score_with_model(product_data: pd.DataFrame, model: Any) -> f
 
     predicted_score = model.predict(product_data)[0]
     return predicted_score
+def classify_carbon_score(score: float) -> str:
+    if score <= 33:
+        return "Eco-Friendly"
+    elif score <= 66:
+        return "Neutral"
+    else:
+        return "Hazardous"

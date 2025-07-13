@@ -8,7 +8,7 @@ function App() {
       <header className="bg-green-600 text-white py-6 mb-8">
         <div className="container mx-auto px-4">
           <h1 className="text-3xl font-bold">Carbon-Aware Product Recommendation</h1>
-          <p className="mt-2">Calculate and compare product carbon scores to find greener alternatives</p>
+          <p className="mt-2">Calculate and compare product carbon scores to check the carbon footprint of the product</p>
         </div>
       </header>
 

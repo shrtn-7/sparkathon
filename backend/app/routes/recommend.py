@@ -7,9 +7,18 @@ from app.schemas.product import (
     AlternativeProduct, CatalogProduct
 )
 from app.data.catalog import get_all_products, get_product_by_id
-from app.models.ml_model import predict_carbon_score_with_model
+from app.models.ml_model import predict_carbon_score_with_model, classify_carbon_score
 
 router = APIRouter()
+@router.post("/predict-score")
+async def predict_score(request: Request):
+    data = await request.json()
+    score = predict_carbon_score_with_model(request.app, data)
+    label = classify_carbon_score(score)
+    return {
+        "carbon_score": score,
+        "label": label
+    }
 """
 
 @router.post("/get-alternatives", response_model=AlternativesOutput, summary="Get Greener Alternatives for a Product")

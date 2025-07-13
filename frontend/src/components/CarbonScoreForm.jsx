@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { predictCarbonScore, getGreenerAlternatives } from '../services/api';
+import { predictCarbonScore } from '../services/api';
 
 const CarbonScoreForm = () => {
   const [formData, setFormData] = useState({
@@ -13,7 +13,6 @@ const CarbonScoreForm = () => {
   });
 
   const [result, setResult] = useState(null);
-  const [alternatives, setAlternatives] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
@@ -21,8 +20,9 @@ const CarbonScoreForm = () => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,
-      [name]: name === 'weight_kg' || name === 'delivery_distance_km' ? 
-        parseFloat(value) || value : value
+      [name]: name === 'weight_kg' || name === 'delivery_distance_km'
+        ? parseFloat(value) || value
+        : value
     }));
   };
 
@@ -32,15 +32,22 @@ const CarbonScoreForm = () => {
     setError(null);
 
     try {
-      // Get carbon score prediction
       const scoreResult = await predictCarbonScore(formData);
-      setResult(scoreResult);
 
-      // Get greener alternatives
-      const alternativesResult = await getGreenerAlternatives({ product_input: formData });
-      setAlternatives(alternativesResult);
+      const score = scoreResult.carbon_score;
+      let label = '';
+
+      if (score < 50) {
+        label = 'Eco-Friendly';
+      } else if (score < 100) {
+        label = 'Neutral';
+      } else {
+        label = 'Hazardous';
+      }
+
+      setResult({ ...scoreResult, label });
     } catch (err) {
-      setError(err.message);
+      setError(err.message || 'An error occurred');
     } finally {
       setLoading(false);
     }
@@ -49,7 +56,7 @@ const CarbonScoreForm = () => {
   return (
     <div className="max-w-2xl mx-auto p-6">
       <h2 className="text-2xl font-bold mb-6">Calculate Product Carbon Score</h2>
-      
+
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label className="block mb-2">Category:</label>
@@ -157,28 +164,24 @@ const CarbonScoreForm = () => {
       {result && (
         <div className="mt-6 p-4 bg-gray-100 rounded">
           <h3 className="text-xl font-bold mb-2">Carbon Score Result</h3>
-          <p className="text-2xl text-green-600">{result.carbon_score.toFixed(2)}</p>
-        </div>
-      )}
+          <p className="text-2xl font-semibold text-green-600">
+            {result.carbon_score.toFixed(2)}
+          </p>
 
-      {alternatives && alternatives.alternatives.length > 0 && (
-        <div className="mt-6">
-          <h3 className="text-xl font-bold mb-4">Greener Alternatives</h3>
-          <div className="space-y-4">
-            {alternatives.alternatives.map((alt, index) => (
-              <div key={index} className="p-4 bg-green-50 rounded">
-                <h4 className="font-bold">{alt.product_name}</h4>
-                <p>Carbon Score: {alt.carbon_score.toFixed(2)}</p>
-                <p>Category: {alt.category}</p>
-                <p>Origin: {alt.origin_country}</p>
-                <p>Delivery: {alt.delivery_method}</p>
-              </div>
-            ))}
-          </div>
+          {result.label && (
+            <p className="mt-2 text-lg">
+              <span className={`font-bold px-3 py-1 rounded inline-block
+                ${result.label === 'Eco-Friendly' ? 'bg-green-200 text-green-800' :
+                  result.label === 'Neutral' ? 'bg-yellow-200 text-yellow-800' :
+                  'bg-red-200 text-red-800'}`}>
+                {result.label}
+              </span>
+            </p>
+          )}
         </div>
       )}
     </div>
   );
 };
 
-export default CarbonScoreForm; 
+export default CarbonScoreForm;

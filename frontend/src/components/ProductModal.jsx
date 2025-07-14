@@ -140,14 +140,14 @@ const ProductModal = ({ product, isOpen, onClose }) => {
           </div>
 
           {/* Action Buttons */}
-          <div className="flex gap-3 mt-6">
+          {/* <div className="flex gap-3 mt-6">
             <button className="flex-1 bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 transition-colors">
               Add to Cart
             </button>
             <button className="flex-1 bg-gray-200 text-gray-800 py-2 px-4 rounded-md hover:bg-gray-300 transition-colors">
               Add to Wishlist
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

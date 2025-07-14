@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { getProductsByCategory } from '../utils/productData';
-import CategoryFilter from './CategoryFilter';
-import ProductGrid from './ProductGrid';
-import ProductModal from './ProductModal';
+import CategoryFilter from '../components/CategoryFilter';
+import ProductGrid from '../components/ProductGrid';
+import ProductModal from '../components/ProductModal';
 
 const EcommerceApp = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');

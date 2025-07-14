@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import EcommerceApp from './components/EcommerceApp';
-import CarbonScoreForm from './components/CarbonScoreForm';
+import EcommerceApp from './pages/EcommerceApp';
+import CarbonScoreForm from './pages/CarbonScoreForm';
 import './App.css';
 
 function App() {

@@ -1,5 +1,3 @@
-
-
 export const predictCarbonScore = async (productData) => {
   const response = await fetch(`http://localhost:8000/api/predict-score`, {
     method: 'POST',

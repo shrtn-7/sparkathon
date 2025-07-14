@@ -1,0 +1,26 @@
+product_id,product_name,description,category,origin_country,weight_kg,packaging,delivery_method,delivery_distance_km,delivery_speed,price_usd,carbon_score,image_url
+2000,Wireless Earbuds,Latest tech with smart features and efficient battery life.,Electronics,China,0.15,Recycled,Sea,7707,Express,93.47,14835.98,https://m.media-amazon.com/images/I/71ndbdVgC7L._AC_UY436_FMwebp_QL65_.jpg
+2001,Smart Watch,Latest tech with smart features and efficient battery life.,Electronics,India,0.59,Cardboard,Air,7830,Standard,105.29,6929.55,https://m.media-amazon.com/images/I/61fxl+1+kZL._AC_UY436_FMwebp_QL65_.jpg
+2002,Bluetooth Speaker,Latest tech with smart features and efficient battery life.,Electronics,USA,3.24,Recycled,Sea,2218,Standard,119.21,3593.16,https://m.media-amazon.com/images/I/71NTrD1tqAL._AC_UY436_FMwebp_QL65_.jpg
+2003,Portable Charger,Latest tech with smart features and efficient battery life.,Electronics,China,1.76,Cardboard,Sea,7864,Express,74.66,6920.32,https://m.media-amazon.com/images/I/51mFLvYqKlL._AC_UY436_FMwebp_QL65_.jpg
+2004,Noise Cancelling Headphones,Latest tech with smart features and efficient battery life.,Electronics,China,0.34,Recycled,Road,4510,Express,142.32,11689.92,https://m.media-amazon.com/images/I/610DB8Cwm7L._AC_UY436_FMwebp_QL65_.jpg
+2005,Air Purifier,Compact and energy-efficient design for everyday use.,Home Appliances,Vietnam,12.49,Cardboard,Air,359,Express,108.74,1340.87,https://m.media-amazon.com/images/I/61jwM+adjXL._SX679_.jpg
+2006,Electric Kettle,Compact and energy-efficient design for everyday use.,Home Appliances,Germany,1.87,Cardboard,Road,5047,Express,105.05,3512.71,https://m.media-amazon.com/images/I/71Tck+rJ2SL._AC_UY436_FMwebp_QL65_.jpg
+2007,Induction Cooktop,Compact and energy-efficient design for everyday use.,Home Appliances,India,4.36,Cardboard,Sea,6121,Express,272.12,7222.78,https://m.media-amazon.com/images/I/715L3WOq4JL._AC_UY436_FMwebp_QL65_.jpg
+2008,Vacuum Cleaner,Compact and energy-efficient design for everyday use.,Home Appliances,Germany,10.97,Cardboard,Air,7800,Standard,49.85,23049,https://m.media-amazon.com/images/I/61nsOzbC4BL._AC_UY436_FMwebp_QL65_.jpg
+2009,Mini Refrigerator,Compact and energy-efficient design for everyday use.,Home Appliances,Vietnam,22.83,Cardboard,Air,4954,Express,145.7,21029.73,https://m.media-amazon.com/images/I/71R5O4sE3WL._AC_UY436_FMwebp_QL65_.jpg
+2010,Men's Cotton T-Shirt,Comfortable and stylish,Clothing,Vietnam,0.36,Plastic,Sea,8442,Standard,257.96,1519.56,https://m.media-amazon.com/images/I/81j27szi3cL._AC_UL640_FMwebp_QL65_.jpg
+2011,Women's Hoodie,Comfortable,Clothing,USA,1.86,Cardboard,Air,2191,Express,223.69,6112.89,https://m.media-amazon.com/images/I/71gjB+gLnQL._AC_UL640_FMwebp_QL65_.jpg
+2012,Denim Jeans,Comfortable,Clothing,India,1.53,Plastic,Air,3755,Standard,30.67,14250.22,https://m.media-amazon.com/images/I/61-r2kTvZDL._AC_UL640_FMwebp_QL65_.jpg
+2013,Casual Sneakers,Comfortable,Clothing,Vietnam,1.81,Cardboard,Sea,3479,Standard,189.73,3148.49,https://m.media-amazon.com/images/I/518nHJOJsLL._AC_UL640_FMwebp_QL65_.jpg
+2014,Sports Jacket,Comfortable,Clothing,China,1.67,Recycled,Air,8174,Express,65.98,8214.87,https://m.media-amazon.com/images/I/412O5U6TjaL._AC_UL640_FMwebp_QL65_.jpg
+2015,Face Moisturizer,Made from organic ingredients with recyclable packaging.,Beauty,Vietnam,0.26,Plastic,Road,684,Standard,195.65,1783.87,https://m.media-amazon.com/images/I/61SSD0FoULL._AC_UL640_FMwebp_QL65_.jpg
+2016,Organic Shampoo,Made from organic ingredients with recyclable packaging.,Beauty,Vietnam,0.42,Recycled,Air,7612,Standard,244.08,37907.76,https://m.media-amazon.com/images/I/619kXpHl4yL._AC_UL640_FMwebp_QL65_.jpg
+2017,Lip Balm,Made from organic ingredients with recyclable packaging.,Beauty,Germany,0.1,Cardboard,Sea,8219,Express,129.19,6287.53,https://m.media-amazon.com/images/I/61wdV4uPH-L._AC_UL640_FMwebp_QL65_.jpg
+2018,Sunscreen Lotion,Made from organic ingredients with recyclable packaging.,Beauty,USA,0.11,Recycled,Road,2299,Express,55.41,2041.51,https://m.media-amazon.com/images/I/614yLOLZEEL._AC_UL640_FMwebp_QL65_.jpg
+2019,Aloe Vera Gel,Made from organic ingredients with recyclable packaging.,Beauty,India,0.37,Recycled,Road,7796,Standard,107.66,21018.02,https://m.media-amazon.com/images/I/51NFtLbWPoL._AC_UL640_FMwebp_QL65_.jpg
+2020,Fiction Novel,Printed on eco-friendly paper with a sustainable mindset.,Books,India,0.24,Recycled,Road,9353,Standard,171.52,23494.74,https://m.media-amazon.com/images/I/61pZyTuNDYL._AC_UY436_FMwebp_QL65_.jpg
+2021,Self Help Book,Printed on eco-friendly paper with a sustainable mindset.,Books,China,0.38,Recycled,Air,1091,Standard,24.52,1276.47,https://m.media-amazon.com/images/I/712K3sdLlRL._AC_UY436_FMwebp_QL65_.jpg
+2022,Science Textbook,Printed on eco-friendly paper with a sustainable mindset.,Books,India,1.74,Cardboard,Air,1484,Express,276.71,8325.24,https://m.media-amazon.com/images/I/517W9NSMu+L._AC_UY436_FMwebp_QL65_.jpg
+2023,Cookbook,Printed on eco-friendly paper with a sustainable mindset.,Books,China,0.69,Recycled,Air,1262,Standard,245.79,4334.97,https://m.media-amazon.com/images/I/911pI+iDkCL._AC_UY436_FMwebp_QL65_.jpg
+2024,Children's Story Book,Printed on eco-friendly paper with a sustainable mindset.,Books,Germany,0.52,Cardboard,Sea,6137,Standard,116.22,4664.12,https://m.media-amazon.com/images/I/81WCSu2RoJS._AC_UY436_FMwebp_QL65_.jpg

@@ -1,12 +1,12 @@
-from fastapi import APIRouter, HTTPException, status, Request
-from typing import Optional, List
-import pandas as pd
+from fastapi import APIRouter,  Request # HTTPException, status
+# from typing import Optional, List
+# import pandas as pd
 
-from app.schemas.product import (
-    ProductInput, ProductIdInput, AlternativesOutput,
-    AlternativeProduct, CatalogProduct
-)
-from app.data.catalog import get_all_products, get_product_by_id
+# from app.schemas.product import (
+#     ProductInput, ProductIdInput, AlternativesOutput,
+#     AlternativeProduct, CatalogProduct
+# )
+# from app.data.catalog import get_all_products, get_product_by_id
 from app.models.ml_model import predict_carbon_score_with_model, classify_carbon_score
 
 router = APIRouter()
